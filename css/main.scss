@@ -43,10 +43,16 @@ $on-laptop:        800px;
 }
 
 
+// Own Colors
+$red-color:       rgb(173, 33, 9);
+$red-color-light: lighten($red-color, 40%);
+$red-color-dark:  darken($red-color, 25%);
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "footer-custom"
 ;
