@@ -49,7 +49,17 @@
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
-
+    <div class="small footer-col-wrapper legal-section">
+      {% for legal in site.legal %}
+      <span class="footer-col"><a href="{{ legal.url | prepend: site.baseurl }}">{{ legal.title }}</a></span>
+      {% endfor %}
+      <div class="copyright">&copy; 2015 Felix Döring</div>
+    </div>
   </div>
+
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
 
 </footer>
