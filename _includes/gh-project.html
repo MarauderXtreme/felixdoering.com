@@ -14,7 +14,7 @@
         <span class="forks">Forks: {{ repo.forks_count }}</span>
       </p>
       {% if extra_sites contains repo.name %}
-        <p><a href="{{ extra_sites[repo.name].url }}">Local project page</a></p>
+        <p><a href="{{ extra_sites[repo.name].url }}">Projektbeschreibung</a></p>
       {% endif %}
     </div>
   {% endfor %}
