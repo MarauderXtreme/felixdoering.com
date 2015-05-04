@@ -1,4 +1,5 @@
 ---
+layout: project
 title: AGDSN-Traffic-Plugin für Mac
 github_link: h4llow3En/AGDSN_traffic_Mac
 status: "in Entwicklung"
