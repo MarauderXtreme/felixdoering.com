@@ -1,0 +1,62 @@
+.small {
+  font-size: small;
+}
+
+p.small, .small p, p.smaller, .smaller p {
+  margin-bottom: 0.5em;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.light-font {
+  color: $grey-text-color-light;
+}
+
+.column-4 {
+  width: 33%;
+}
+
+.column-8 {
+  width: 66%;
+}
+
+.column-12 {
+  width: 100%;
+}
+
+.slim-button {
+  padding: 7px 13px;
+  border: 1px solid $grey-color-light;
+  border-radius: 5px;
+}
+
+@media (max-width: $on-palm) {
+  .widescreen-only {
+    display: none;
+  }
+}
+
+@media (max-width: $on-palm) {
+  .fullscreen-on-palm {
+    width: 100%;
+  }
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
