@@ -1,35 +1,22 @@
-<div class="project-meta small">
-  {% unless project %}
-    {% assign project = page %}
-  {% endunless %}
-
-  {% if project.author %}
-    <p>Autor: <span class="project-author">{{ project.author }}</span></p>
-  {% endif %}
-
-  {% if project.date %}
-    <p>vom <span class="project-date">{{ project.date | date: "%b %-d, %Y" }}</span></p>
-  {% endif %}
-
-  {% if project.languages %}
-    <p>Sprache{% if project.languages.size > 1 %}s{% endif %}:
-      <span class="languages">
-        {{ project.languages | join: ", " }}
-      </span>
-    </p>
-  {% endif %}
-
-  {% if project.status %}
-    <p>Aktueller Status: <span class="project-status">{{ project.status }}</span></p>
-  {% endif %}
-
-  {% if project.github_link %}
-    <p><a href="https://github.com/{{ project.github_link }}">Repository auf GitHub</a></p>
-  {% endif %}
-
-  {% if project.documentation and project.documentation.link %}
-    <p><a href="{{ project.documentation.link }}">Dokumentation</a>
-      {% if project.documentation.host %}on {{ project.documentation.host }}{% endif %}
-    </p>
-  {% endif %}
+{% if site.github %}
+<div class="github-repo-overview">
+  {% assign repos = site.github.public_repositories | sort: 'created_at' | reverse %}
+  {% assign extra_sites = site.data.projects.additional_sites %}
+  {% for repo in repos %}
+    <div class="repository">
+      <h3 class="repository-name"><a href="{{ repo.html_url }}">{{ repo.name }}{% if repo.fork %} (fork){% endif %}</a></h3>
+      <p class="repo-description">
+        {{ repo.description }}
+      </p>
+      <p class="repository-statistics small light-font">
+        <span class="watchers">Watchers: {{ repo.watchers_count }}</span>
+        <span class="stargazers">Stars: {{ repo.stargazers_count }}</span>
+        <span class="forks">Forks: {{ repo.forks_count }}</span>
+      </p>
+      {% if extra_sites contains repo.name %}
+        <p><a href="{{ extra_sites[repo.name].url }}">Local project page</a></p>
+      {% endif %}
+    </div>
+  {% endfor %}
 </div>
+{% endif %}
