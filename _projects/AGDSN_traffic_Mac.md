@@ -4,6 +4,8 @@ title: AGDSN-Traffic-Plugin für Mac
 github_link: h4llow3En/AGDSN_traffic_Mac
 status: "in Entwicklung"
 languages: [Swift]
+documentation:
+    link:"http://felixdoering.com"
 ---
 
 [![Build Status](https://travis-ci.org/h4llow3En/AGDSN_traffic_Mac.svg)](https://travis-ci.org/h4llow3En/AGDSN_traffic_Mac)
