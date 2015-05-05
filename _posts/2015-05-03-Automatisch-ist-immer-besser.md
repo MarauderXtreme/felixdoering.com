@@ -4,9 +4,9 @@ title:  "Automatisch ist immer besser!"
 date:   2015-05-03 20:03:00
 categories: AGDSN Traffic Plugin
 ---
-Gestern Abend habe ich in meinem [Traffic-Plugin](https://github.com/h4llow3En/AGDSN_traffic_Mac) für das Wohnheiminternet einen Bug in der Anzeige des noch verfügbaren Traffics gefunden. Also habe ich mich an die Arbeit gemacht, den auch so schnell wie möglich zu beheben, damit man es wieder zuverlässig nutzen kann.
+Gestern Abend habe ich in meinem [Traffic-Plugin](http://felixdoering.com/projects/AGDSN_traffic_Mac.html "Projektseite des Traffic-Plugins") für das Wohnheiminternet einen Bug in der Anzeige des noch verfügbaren Traffics gefunden. Also habe ich mich an die Arbeit gemacht, den auch so schnell wie möglich zu beheben, damit man es wieder zuverlässig nutzen kann.
 
-Ich kenne bis jetzt, abgesehen von mir, nur zwei Leute, die dieses Tool nutzen, [Justus](https://github.com/JustusAdam) und [Kilian](https://github.com/kiliankoe). Also habe ich auch beide kontaktiert, dass ich eine neue Version released habe.
+Ich kenne bis jetzt, abgesehen von mir, nur zwei Leute, die dieses Tool nutzen, [Justus](https://github.com/JustusAdam "Justus Adam auf Github") und [Kilian](https://github.com/kiliankoe "Kilian Költzsch auf Github"). Also habe ich auch beide kontaktiert, dass ich eine neue Version released habe.
 Aus Spaß brachte Justus die Idee an, dass in der nächsten Version dann ruhig ein Autoupdater mit drinne sein könnte. Ich muss zugeben, dass auch ich bereits davor schon mit dem Gedanken gespielt habe, weil das so ziemlich die einzige Möglichkeit ist Updates einer vielleicht später auch mal breiteren Masse auszuteilen.
 
 Meine erste Idee war, dass ich ähnlich wie das abrufen des Traffics jede Minute eine Anfrage bei der GitHub-API mache, was der aktuellste Release ist. Das wäre allerdings ein ganz schönes gefrickel geworden. Dank Kilian habe ich dann ein schönes Framework gefunden, [Sparkle](http://sparkle-project.org), welches es relativ einfach ermöglicht, Updates zu verteilen.
