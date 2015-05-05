@@ -5,7 +5,7 @@ github_link: h4llow3En/AGDSN_traffic_Mac
 status: "in Entwicklung"
 languages: [Swift]
 documentation:
-    link:"http://felixdoering.com"
+    link: http://felixdoering.com/AGDSN_traffic_Mac/
 ---
 
 [![Build Status](https://travis-ci.org/h4llow3En/AGDSN_traffic_Mac.svg)](https://travis-ci.org/h4llow3En/AGDSN_traffic_Mac)
