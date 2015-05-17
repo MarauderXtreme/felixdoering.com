@@ -3,7 +3,7 @@ layout: project
 title: Sparkle-Autorelease
 github_link: h4llow3En/sparkle-autorelease
 status: "in Entwicklung"
-languages: [Shell]
+languages: [Python]
 ---
 Ihr schreibt Anwendungen für OS X und verwendet das [Sparkle-Framework](http://sparkle-project.org) um bei den Nutzern die Anwendungen zu updaten?
 Wenn man keine Developer-ID für Mac hat, kann das schon ziemlich umständlich sein, vorallem, wenn man gleichzeitig auch den Release auf Github veröffentlichen möchte.

@@ -20,7 +20,13 @@
   {% endif %}
 
   {% if project.status %}
-    <p>Aktueller Status: <span class="project-status">{{ project.status }}</span></p>
+    {% if project.status == "in Entwicklung" %}
+    <p>Aktueller Status: <span class="project-status" style="color:orange">{{ project.status }}</span></p>
+    {% elsif project.status == "Beendet" %}
+    <p>Aktueller Status: <span class="project-status" style="color:green">{{ project.status }}</span></p>
+    {% else %}
+    <p>Aktueller Status: <span class="project-status" >{{ project.status }}</span></p>
+    {% endif %}
   {% endif %}
 
   {% if project.github_link %}
