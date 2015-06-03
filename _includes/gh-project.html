@@ -8,7 +8,6 @@
       <p class="repo-description">
         {{ repo.description }}
       </p>
-      {% include gh-button.html %}
       {% if extra_sites contains repo.name %}
         <p><a href="{{ extra_sites[repo.name].url }}">Projektbeschreibung</a></p>
       {% endif %}
