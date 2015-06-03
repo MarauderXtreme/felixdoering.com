@@ -49,11 +49,15 @@
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
-    <div class="small footer-col-wrapper footer-bottom">
-      {% for legal in site.legal %}
-      <span class="footer-col"><a href="{{ legal.url | prepend: site.baseurl }}">{{ legal.title }}</a></span>
-      {% endfor %}
-      <div class="copyright">&copy; 2015 Felix Döring</div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrapper">
+      <div class="small footer-col-wrapper">
+        {% for legal in site.legal %}
+        <span class="footer-col"><a href="{{ legal.url | prepend: site.baseurl }}">{{ legal.title }}</a></span>
+        {% endfor %}
+        <div class="copyright">&copy; 2015 Felix Döring</div>
+      </div>
     </div>
   </div>
 
