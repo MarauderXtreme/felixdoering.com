@@ -8,11 +8,7 @@
       <p class="repo-description">
         {{ repo.description }}
       </p>
-      <p class="repository-statistics small light-font">
-        <span class="watchers">Watchers: {{ repo.watchers_count }}</span>
-        <span class="stargazers">Stars: {{ repo.stargazers_count }}</span>
-        <span class="forks">Forks: {{ repo.forks_count }}</span>
-      </p>
+      {% include gh-button.html %}
       {% if extra_sites contains repo.name %}
         <p><a href="{{ extra_sites[repo.name].url }}">Projektbeschreibung</a></p>
       {% endif %}
