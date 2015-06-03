@@ -1,8 +1,8 @@
 # Site settings
 title: Felix' Homepage
-email: Doering.Felix@googlemail.com
+email: mail@felixdoering.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hier kommt noch eine vernünftige Beschreibung rein...
+  Meine Seite, mein Blog. Hier möchte ich über mich erzählen.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://felixdoering.com" # the base hostname & protocol for your site
 github_username:  h4llow3En
@@ -38,3 +38,8 @@ collections:
   legal:
     output: true
   quick_facts:
+
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-63707835-1'

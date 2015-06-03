@@ -2,7 +2,8 @@
 layout: project
 title: Sparkle-Autorelease
 github_link: h4llow3En/sparkle-autorelease
-status: "in Entwicklung"
+status: "development"
+date: 03.05.2015
 languages: [Python]
 ---
 Ihr schreibt Anwendungen für OS X und verwendet das [Sparkle-Framework](http://sparkle-project.org) um bei den Nutzern die Anwendungen zu updaten?

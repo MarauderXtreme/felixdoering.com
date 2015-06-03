@@ -8,25 +8,29 @@
   {% endif %}
 
   {% if project.date %}
-    <p>vom <span class="project-date">{{ project.date | date: "%b %-d, %Y" }}</span></p>
+    <p>erstellt am <span class="project-date">{{ project.date | date: "%d. %m. %Y" }}</span></p>
   {% endif %}
 
   {% if project.languages %}
-    <p>Sprache{% if project.languages.size > 1 %}s{% endif %}:
+    <p><b>Sprache{% if project.languages.size > 1 %}n{% endif %}:
       <span class="languages">
         {{ project.languages | join: ", " }}
       </span>
-    </p>
+    </b></p>
   {% endif %}
 
   {% if project.status %}
-    {% if project.status == "in Entwicklung" %}
-    <p>Aktueller Status: <span class="project-status" style="color:orange">{{ project.status }}</span></p>
-    {% elsif project.status == "Beendet" %}
-    <p>Aktueller Status: <span class="project-status" style="color:green">{{ project.status }}</span></p>
+    {% if project.status == "development" %}
+      <p><b>Aktueller Status:</b> <span class="project-status" style="color:orange">&#x2b24  <b>in Entwicklung</b></span></p>
+    {% elsif project.status == "released" %}
+      <p><b>Aktueller Status:</b> <span class="project-status" style="color:green">&#x2b24  <b>Veröffentlicht</b></span></p>
+    {% elsif project.status == "canceled" %}
+      <p><b>Aktueller Status:</b> <span class="project-status" style="color:rgb(173, 33, 9)">&#x2b24  <b>wird nicht fortgeführt</b></span></p>
     {% else %}
-    <p>Aktueller Status: <span class="project-status" >{{ project.status }}</span></p>
+      <p><b>Aktueller Status:</b> <span class="project-status">&#x2b24  <b>Unbekannt</b></span></p>
     {% endif %}
+  {% else %}
+    <p><b>Aktueller Status:</b> <span class="project-status">&#x2b24  <b>Unbekannt</b></span></p>
   {% endif %}
 
   {% if project.github_link %}
