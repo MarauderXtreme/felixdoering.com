@@ -2,9 +2,10 @@
 layout: post
 title:  "Automatisch ist immer besser!"
 date:   2015-05-03 20:03:00
+related: AGDSN_traffic_Mac
 categories: AGDSN Traffic Plugin
 ---
-Gestern Abend habe ich in meinem [Traffic-Plugin](http://felixdoering.com/projects/AGDSN_traffic_Mac.html "Projektseite des Traffic-Plugins") für das Wohnheiminternet einen Bug in der Anzeige des noch verfügbaren Traffics gefunden. Also habe ich mich an die Arbeit gemacht, den auch so schnell wie möglich zu beheben, damit man es wieder zuverlässig nutzen kann.
+Gestern Abend habe ich in meinem Traffic-Plugin für das Wohnheiminternet einen Bug in der Anzeige des noch verfügbaren Traffics gefunden. Also habe ich mich an die Arbeit gemacht, den auch so schnell wie möglich zu beheben, damit man es wieder zuverlässig nutzen kann.
 
 Ich kenne bis jetzt, abgesehen von mir, nur zwei Leute, die dieses Tool nutzen, [Justus](https://github.com/JustusAdam "Justus Adam auf Github") und [Kilian](https://github.com/kiliankoe "Kilian Költzsch auf Github"). Also habe ich auch beide kontaktiert, dass ich eine neue Version released habe.
 Aus Spaß brachte Justus die Idee an, dass in der nächsten Version dann ruhig ein Autoupdater mit drinne sein könnte. Ich muss zugeben, dass auch ich bereits davor schon mit dem Gedanken gespielt habe, weil das so ziemlich die einzige Möglichkeit ist Updates einer vielleicht später auch mal breiteren Masse auszuteilen.

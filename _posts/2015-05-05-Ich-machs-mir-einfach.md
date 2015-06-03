@@ -2,6 +2,7 @@
 layout: post
 title:  "Ich machs mir einfach"
 date:   2015-05-05 18:15:00
+related: sparkle-autorelease
 categories: GitHub release sparkle
 ---
 Warum nicht auch mal zwei Posts an einem Tag raus bringen?

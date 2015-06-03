@@ -2,9 +2,10 @@
 layout: post
 title:  "Bitte sag mir warum"
 date:   2015-05-05 12:03:00
+related: AGDSN_traffic_Mac
 categories: apache2 webhook GitHub release
 ---
-Ein neuer Tag, eine neue Aufgabe. Naja, dachte ich jedenfalls. Wie in meinem [Eintrag zuvor](http://localhost:4000/blog/2015/05/03/Automatisch-ist-immer-besser.html "Automatisch ist immer besser!") schon beschrieben habe ich in mein Traffic-Plugin einen Updater eingebaut. Nur ist es ziemlich umständlich, neue Updates zu releasen.
+Ein neuer Tag, eine neue Aufgabe. Naja, dachte ich jedenfalls. Wie in meinem Eintrag zuvor schon beschrieben habe ich in mein Traffic-Plugin einen Updater eingebaut. Nur ist es ziemlich umständlich, neue Updates zu releasen.
 
 1. Builden
 2. Den Build zippen (um die beiden wird man so oder so nicht drumherum kommen)
