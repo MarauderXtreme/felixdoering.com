@@ -2,7 +2,7 @@
 title: Felix' Homepage
 email: mail@felixdoering.com
 description: > # this means to ignore newlines until "baseurl:"
-  Meine Seite, mein Blog. Hier möchte ich über mich erzählen.
+  Meine Seite, mein Blog. Hier möchte ich über mich und meine Projekte erzählen.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://felixdoering.com" # the base hostname & protocol for your site
 github_username:  h4llow3En
