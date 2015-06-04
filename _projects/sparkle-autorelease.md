@@ -2,7 +2,7 @@
 layout: project
 title: Sparkle-Autorelease
 github_link: h4llow3En/sparkle-autorelease
-status: "release"
+status: "released"
 date: 03.05.2015
 languages: [Python]
 ---
