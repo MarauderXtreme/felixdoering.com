@@ -2,7 +2,7 @@
 layout: project
 title: momendlos auf dem Desktop
 github_link: h4llow3En/momendlos_Desktop
-status: "development"
+status: "released"
 date: 24.05.2015
 languages: [Swift]
 documentation:
