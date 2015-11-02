@@ -15,4 +15,4 @@ Sparkle-Autorelease übernimmt das zumindest Teilweise. Alle wichtigen Informati
 3. In den gh-pages-Branch wechseln und die appcast.xml updaten
 4. Das ganze pushen und wieder in den master Branch wechseln
 
-__Hinweis:__ Das Script funtioniert __*nur*__, wenn die appcast.xml im selben Repository wie die App nur um gh-pages Branch gehostet ist.
+__Hinweis:__ Das Script funtioniert __*nur*__, wenn die appcast.xml im selben Repository wie die App nur im gh-pages Branch gehostet ist.
