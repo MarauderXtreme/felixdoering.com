@@ -3,7 +3,6 @@ layout: post
 title:  "Automatisch ist immer besser!"
 date:   2015-05-03 20:03:00
 related: AGDSN_traffic_Mac
-categories: AGDSN Traffic Plugin
 ---
 Gestern Abend habe ich in meinem Traffic-Plugin für das Wohnheiminternet einen Bug in der Anzeige des noch verfügbaren Traffics gefunden. Also habe ich mich an die Arbeit gemacht, den auch so schnell wie möglich zu beheben, damit man es wieder zuverlässig nutzen kann.
 

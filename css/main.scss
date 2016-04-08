@@ -3,56 +3,53 @@
 ---
 @charset "utf-8";
 
+/* Base colors */
 
+$red-dark: #711506;
+$red-light: #B12109;
 
-// Our variables
-$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+/* Fade effect as function */
 
-$spacing-unit:     30px;
+@mixin grad($dark, $light) {
+    background: $dark;
+    background: -webkit-linear-gradient($dark, $light);
+    background: -o-linear-gradient($dark, $light);
+    background: -moz-linear-gradient($dark, $light);
+    background: linear-gradient($dark, $light);
+}
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    1000px;
-
-$on-palm:          600px;
-$on-laptop:        1000px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+@mixin fade($hcol, $ncol) {
+    color: $ncol;
+    transition: all 1s ease-in-out;
+    &:hover {
+        transition: all .5s ease-in-out;
+        color: $hcol;
     }
 }
 
+h1,
+h2,
+h3,
+h4 {
+    color: $red-dark;
+}
 
-// Own Colors
-$red-color:       rgb(173, 33, 9);
-$red-color-light: lighten($red-color, 40%);
-$red-color-dark:  darken($red-color, 25%);
+a {
+  color: $red-light;
+}
+
+.minheight {
+    min-height: calc(100% - 11rem);
+}
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "custom"
-;
+/* Imports */
+
+@import 'http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css',
+'foundation.min.css',
+'normalize.css',
+'menu',
+'postprev',
+'project',
+'side',
+'footer';

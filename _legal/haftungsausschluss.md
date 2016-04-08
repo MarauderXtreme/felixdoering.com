@@ -1,5 +1,6 @@
 ---
 title: Haftungsausschluss
+layout: page
 ---
 
 ## Haftung für Inhalte

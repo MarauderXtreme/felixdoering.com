@@ -3,7 +3,6 @@ layout: project
 title: Thermometer
 github_link: h4llow3En/Thermometer
 status: "development"
-date: 22.06.2014
 languages: [Python]
 ---
 

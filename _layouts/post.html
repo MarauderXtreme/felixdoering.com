@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="medium-12 columns">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -13,6 +13,7 @@ layout: default
     {% endif %}
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+  <hr class="small">
 
   <article class="post-content">
     {{ content }}

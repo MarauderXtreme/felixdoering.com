@@ -3,7 +3,6 @@ layout: post
 title: "Das ist häufiger"
 date: 2015-07-28T13:25:02+02:00
 related: Thermometer
-categories: GitHub Thermometer Raspberry Pi DHT22
 ---
 
 Wow, das hat sich ja bei mir doch nicht so gut gehalten. Eigentlich wollte ich doch etwas mehr schreiben, als bei meinem letzten Versuch einen Blog zu führen...

@@ -3,7 +3,6 @@ layout: post
 title:  "momendlos, bitte sofort"
 date:   2015-06-03 17:00:00
 related: momendlos_Desktop
-categories: GitHub momendlos Desktop Wallpaper
 ---
 Ein neues kleines Projekt bahnt sich den Weg in meinen Kopf: Es ist eine Kombination aus meinem Photoblog und Programmierung.
 

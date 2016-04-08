@@ -1,0 +1,71 @@
+.previewpost {
+    text-decoration: none;
+    color: black !important;
+}
+
+.post {
+    padding: 1rem 1rem 1rem 0;
+    display: table;
+}
+
+.post-date {
+    width: 6rem;
+    margin: 0 auto 1rem;
+    padding-left: 1rem;
+    vertical-align: middle;
+    display: table-cell;
+    width: auto;
+    .post-month {
+        margin: 0;
+        width: 6rem;
+        @include grad($red-dark, lighten($red-dark, 7%));
+        color: white;
+        padding: 0.5rem 2rem;
+        text-align: center;
+    }
+    .post-day {
+        width: 6rem;
+        margin: 0;
+        border-left: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee;
+        background: #fcfcfc;
+        padding: 0 2rem;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+.small {
+    border-color: $red-dark;
+    @media only screen and (min-width: 40em) {
+        display: none;
+    }
+}
+
+.post-desc {
+    padding: 0 0 0 2rem;
+    text-align: left;
+    display: table-cell;
+    vertical-align: top;
+    .post-desc-title {
+        color: $red-dark;
+        margin: 0 0 0.5rem 0;
+        padding: 0;
+    }
+    .post-desc-preview {
+        margin: 1 0 0 0rem;
+        padding: 0;
+    }
+}
+
+.pagination li {
+    border: 1px solid $red-dark;
+    border-radius: 50%;
+}
+
+.pagination a {
+    border-radius: 50%;
+}

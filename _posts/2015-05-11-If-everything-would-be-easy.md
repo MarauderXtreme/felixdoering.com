@@ -3,7 +3,6 @@ layout: post
 title:  "Wenn man alle Probleme so einfach lösen könnte"
 date:   2015-05-11 11:00:00
 related: AGDSN_traffic_Mac
-categories: GitHub release sparkle issue AGDSN traffic
 ---
 Vor etwa zwei Tagen kam Justus auf die Idee, dass es bei meinem Traffic-Plugin doch eine gute Idee wäre, wenn es anzeigen würde, dass man gar keinen Traffic mehr hat, wenn dieser überschritten ist.
 

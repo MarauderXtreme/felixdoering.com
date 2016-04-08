@@ -3,7 +3,6 @@ layout: post
 title:  "Bitte sag mir warum"
 date:   2015-05-05 12:03:00
 related: AGDSN_traffic_Mac
-categories: apache2 webhook GitHub release
 ---
 Ein neuer Tag, eine neue Aufgabe. Naja, dachte ich jedenfalls. Wie in meinem Eintrag zuvor schon beschrieben habe ich in mein Traffic-Plugin einen Updater eingebaut. Nur ist es ziemlich umständlich, neue Updates zu releasen.
 
