@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://felixdoering.com" # the base hostname & protocol for your site
 github_username:  h4llow3En
 quick_view_length: 300
+paginate: 5
+paginate_path: "/:num/"
 
 # Build settings
 markdown: kramdown
@@ -38,7 +40,4 @@ collections:
     output: true
   quick_facts:
 
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-63707835-1'
+gems: [jekyll-paginate]
