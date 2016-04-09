@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Über
+title: About
 permalink: /about/
 ---
 
-Dies ist meine Website, die gleichzeitig auch als Blog dienen soll.	
+Content is comming soon&trade;...

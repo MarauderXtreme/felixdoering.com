@@ -1,22 +1,23 @@
 <nav class="menu">
   <div class="logo">
-      <div class="logo-image"></div>
-      <h1 class="name">{{ site.title }}</h1></div>
-    <ul class="inline-list">
-      {% assign cururl = page.url %}
-      {% if cururl == '/' | prepend: site.baseurl %}
+    <div class="logo-image"></div>
+    <h1 class="name">{{ site.title }}</h1>
+  </div>
+  <ul class="inline-list">
+    {% assign cururl = page.url %}
+    {% if cururl == '/' | prepend: site.baseurl %}
       <li class="active"><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-      {% else %}
+    {% else %}
       <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-      {% endif %}
-      {% for page in site.pages %}
-        {% if page.title %}
-          {% if cururl contains page.url | prepend: site.baseurl %}
-            <li class="active"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% else %}
-            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
+    {% endif %}
+    {% for page in site.pages %}
+      {% if page.title %}
+        {% if cururl contains page.url | prepend: site.baseurl %}
+          <li class="active"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% else %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
         {% endif %}
-      {% endfor %}
-    </ul>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </nav>

@@ -1,8 +1,34 @@
-.project-meta{
-  display: block;
-  margin-top: .25rem;
+.project-meta {
+    display: block;
+    margin-top: 0.25rem;
 }
-
 .colored {
-  border-color: $red-dark;
+    border-color: $red-dark;
+}
+.dev {
+    color: orange;
+}
+.released {
+    color: green;
+}
+.canceled {
+    color: $red-light;
+}
+.users {
+    padding-left: 1rem;
+}
+.line {
+    margin: 0 0.5rem 0 ,5rem;
+}
+.space {
+    margin-left: 0.5rem;
+}
+.nolisting {
+    list-style-type: none;
+    i {
+        color: $red-dark;
+    }
+}
+.custfloat {
+    float: right;
 }

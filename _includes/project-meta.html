@@ -4,11 +4,11 @@
   {% endunless %}
 
   {% if project.author %}
-    <p>Autor: <span class="project-author">{{ project.author }}</span></p>
+    <p>Author: <span class="project-author">{{ project.author }}</span></p>
   {% endif %}
 
   {% if project.languages %}
-    <p><b>Sprache{% if project.languages.size > 1 %}n{% endif %}:
+    <p><b>Language{% if project.languages.size > 1 %}s{% endif %}:
       <span class="languages">
         {{ project.languages | join: ", " }}
       </span>
@@ -17,20 +17,20 @@
 
   {% if project.status %}
     {% if project.status == "development" %}
-      <p><b>Aktueller Status:</b> <span class="project-status" style="color:orange">&#x25cf  <b>in Entwicklung</b></span></p>
+      <p><b>Status:</b> <span class="dev">&#x25cf  <b>in development</b></span></p>
     {% elsif project.status == "released" %}
-      <p><b>Aktueller Status:</b> <span class="project-status" style="color:green">&#x25cf  <b>Veröffentlicht</b></span></p>
+      <p><b>Status:</b> <span class="released">&#x25cf  <b>released</b></span></p>
     {% elsif project.status == "canceled" %}
-      <p><b>Aktueller Status:</b> <span class="project-status" style="color:rgb(173, 33, 9)">&#x25cf  <b>wird nicht fortgeführt</b></span></p>
+      <p><b>Status:</b> <span class="canceled">&#x25cf  <b>project canceled</b></span></p>
     {% else %}
-      <p><b>Aktueller Status:</b> <span class="project-status">&#x25cf  <b>Unbekannt</b></span></p>
+      <p><b>Status:</b> <span class="project-status">&#x25cf  <b>Unbekannt</b></span></p>
     {% endif %}
   {% else %}
-    <p><b>Aktueller Status:</b> <span class="project-status">&#x25cf  <b>Unbekannt</b></span></p>
+    <p><b>Status:</b> <span class="project-status">&#x25cf  <b>Unbekannt</b></span></p>
   {% endif %}
 
   {% if project.github_link %}
-    <p><a href="https://github.com/{{ project.github_link }}">Repository auf GitHub</a></p>
+    <p><a href="https://github.com/{{ project.github_link }}">Repository on GitHub</a></p>
   {% endif %}
 
 </div>

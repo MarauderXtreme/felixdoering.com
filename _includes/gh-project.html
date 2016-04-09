@@ -1,17 +1,32 @@
-{% if site.github %}
 <div class="github-repo-overview">
-  {% assign repos = site.github.public_repositories | sort: 'created_at' | reverse %}
-  {% assign extra_sites = site.data.projects.additional_sites %}
-  {% for repo in repos %}
-    <div class="repository">
-      <h3 class="repository-name"><a href="{{ repo.html_url }}">{{ repo.name }}{% if repo.fork %} (fork){% endif %}</a></h3>
-      <p class="repo-description">
-        {{ repo.description }}
-      </p>
-      {% if extra_sites contains repo.name %}
-        <p><a href="{{ extra_sites[repo.name].url }}">Projektbeschreibung</a></p>
-      {% endif %}
-    </div>
-  {% endfor %}
+  {% assign users = site.data.projects.github %} <!--site.github.public_repositories | sort: 'created_at' | reverse-->
+  {% for user in users %}
+    <div class="users">
+      <h4>{{ user[0] }}:</h4>
+      {% for repos in user[1] %}
+      {% assign repo = repos[1] %}
+      <article class="post">
+        <div class="post-desc">
+          {% if repo.name %}
+            <h4 class="post-desc-title">{{ repo.name }}</h4>
+          {% else %}
+            <h4 class="post-desc-title">{{ repo.repo }}</h4>
+          {% endif %}
+          {% if repo.desc %}
+            <p class="post-desc-preview">{{ repo.desc }}</p>
+          {% endif %}
+          <p>Links:
+            {% if repo.intern %}
+              <a href="{{ repo.intern | predend: site.baseurl }}"><i class="fi-page-multiple space"></i></a>
+            {% endif %}
+            {% if repo.extern %}
+              <a href="{{ repo.extern }}"><i class="fi-web space"></i></a>
+            {% endif %}
+            <a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}"><i class="fi-social-github space"></i></a>
+          </p>
+        </div>
+      </article>
+      {% endfor %}
+    {% endfor %}
+  </div>
 </div>
-{% endif %}

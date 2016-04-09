@@ -1,16 +1,15 @@
 ---
-title: Projekte
+title: Projects
 permalink: /projects/
-layout: post
+layout: projectoverview
 ---
 
-Ich habe eigentlich grundsätzlich zwei Arten von Projekten.
+My projects are based on two things, photography and programming.
 
 # momendlos
-[momendlos](https://momendlos.de) ist ein Photoblog, der von mir und einem ehemaligen Schulkameraden und guten Freund betrieben wird. Seit einiger Zeit haben wir auch noch ein drittes Mitglied im Bunde. Einfach mal vorbei schauen, vielleicht lohnt es sich ja auch für euch!
+[momendlos](https://momendlos.de) is an Photoblog.
+Do not hesitate to have a look at it!
 
 # GitHub
-
-Meine Projekte auf GitHub.
 
 {% include gh-project.html %}

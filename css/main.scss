@@ -1,15 +1,8 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-
+--- # Only the main Sass file needs front matter (the dashes are enough) --- @charset  "utf-8";
 /* Base colors */
-
 $red-dark: #711506;
 $red-light: #B12109;
-
 /* Fade effect as function */
-
 @mixin grad($dark, $light) {
     background: $dark;
     background: -webkit-linear-gradient($dark, $light);
@@ -17,39 +10,25 @@ $red-light: #B12109;
     background: -moz-linear-gradient($dark, $light);
     background: linear-gradient($dark, $light);
 }
-
 @mixin fade($hcol, $ncol) {
     color: $ncol;
     transition: all 1s ease-in-out;
     &:hover {
-        transition: all .5s ease-in-out;
+        transition: all 0.5s ease-in-out;
         color: $hcol;
     }
 }
-
 h1,
 h2,
 h3,
 h4 {
     color: $red-dark;
 }
-
 a {
-  color: $red-light;
+    @include fade($red-light, $red-dark);
 }
-
 .minheight {
     min-height: calc(100% - 11rem);
 }
-
-
 /* Imports */
-
-@import 'http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css',
-'foundation.min.css',
-'normalize.css',
-'menu',
-'postprev',
-'project',
-'side',
-'footer';
+@import 'http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css', 'foundation.min.css', 'normalize.css', 'menu', 'postprev', 'project', 'side', 'footer';

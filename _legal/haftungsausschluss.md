@@ -1,5 +1,5 @@
 ---
-title: Haftungsausschluss
+title: Disclaimer
 layout: page
 ---
 

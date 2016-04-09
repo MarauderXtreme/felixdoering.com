@@ -2,14 +2,28 @@
 layout: default
 ---
 <div class="medium-12 columns">
-
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.related %}
-      {% assign extra_sites = site.data.projects.additional_sites %}
-      {% if extra_sites contains page.related %}
-        <p>Dieser Post bezieht sich auf das Projekt <a href="{{ extra_sites[page.related].url }}">{{page.related}}</a></p>
-      {% endif %}
+      {% for user in site.data.projects.github %}
+        {% assign pages = user[1] %}
+        {% if pages contains page.related %}
+          {% assign repo = pages[page.related] %}
+          {% if repo.name %}
+            {% assign relname = repo.name %}
+          {% else %}
+            {% assign relname = repo.repo %}
+          {% endif %}
+          {% if repo.intern %}
+            {% assign repourl = repo.intern | prepend: site.baseurl %}
+          {% elsif repo.extern %}
+            {% assign repourl = repo.extern %}
+          {% else %}
+            {% assign repourl = repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' %}
+          {% endif %}
+          <p>This post is reffered to the project <a href="{{ repourl }}">{{ relname }}</a></p>
+        {% endif %}
+      {% endfor %}
     {% endif %}
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
@@ -18,5 +32,4 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
 </div>
