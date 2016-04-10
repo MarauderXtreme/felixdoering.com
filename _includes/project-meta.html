@@ -3,9 +3,7 @@
     {% assign project = page %}
   {% endunless %}
 
-  {% if project.author %}
-    <p>Author: <span class="project-author">{{ project.author }}</span></p>
-  {% endif %}
+  <h4>Project-Info:</h4>
 
   {% if project.languages %}
     <p><b>Language{% if project.languages.size > 1 %}s{% endif %}:
@@ -30,7 +28,7 @@
   {% endif %}
 
   {% if project.github_link %}
-    <p><a href="https://github.com/{{ project.github_link }}">Repository on GitHub</a></p>
+    <p><a href="https://github.com/{{ project.github_link }}" target="_blank">Repository on GitHub</a></p>
   {% endif %}
 
 </div>

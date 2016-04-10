@@ -32,3 +32,20 @@
 .custfloat {
     float: right;
 }
+.custombutton {
+    background-color: inherit !important;
+    color: $red-dark !important;
+}
+.social-button {
+    margin-top: 40px;
+    float: left;
+    .large {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    span {
+        display: block;
+        text-align: center;
+    }
+}

@@ -5,17 +5,18 @@ github_link: h4llow3En/momendlos_Desktop
 status: "released"
 languages: [Swift]
 ---
-Mein Photoproject [momendlos](https://momendlos.de), nur für den Desktop.
 
-Dieses Projekt für Mac OS X 10.10+ verknüpft momendlos und die Bilder mit dem Desktop deines Macs.
+My photoproject [momendlos](https://momendlos.de) on your Desktop.
 
-### Die Verweundungsmöglichkeiten
+This is an application for Mac OS X 10.10+ that connects momendlos with you Desktop.
 
-Die Software hat untertschiedliche Einstellungen:
-- immer das aktuellste Photo als Hintergrund
-- eine Diashow in zufälliger Reihenfolge
-- eine Diashow in geordneter Reihenfolge
+#### How to use
 
-### Download
+There are several possibilities to use this software:
+- always have the latest photo from momendlos as your wallpaper
+- have a random slideshow
+- have an ordered slideshow
 
-Das Programm kann, sobald eine erste Version erschienen ist [hier auf GitHub](https://github.com/h4llow3En/momendlos_Desktop/releases/latest) herunter geladen werden.
+#### Download
+
+You can download it from [here](https://github.com/h4llow3En/momendlos_Desktop/releases/latest) when the first version is released.

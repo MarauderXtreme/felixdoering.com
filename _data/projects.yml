@@ -2,37 +2,28 @@ github:
   h4llow3En:
     Adventcalendar:
           repo: Adventcalendar
-          desc: "A little E-Mail advent calendar written in Python."
     momendlos_Desktop:
       name: "momendlos Desktop"
       repo: momendlos_Desktop
       intern: /projects/momendlos_Desktop.html
-      desc: "Get momendlos on your Desktop"
     Thermometer:
       repo: Thermometer
       intern: /projects/Thermometer.html
-      desc: "Turn your Raspberry Pi into a Thermometer"
     AGDSN_traffic_Mac:
       name: "AGDSN_traffic Mac"
       repo: AGDSN_traffic_Mac
       intern: /projects/AGDSN_traffic_Mac.html
-      desc: "AG DNS Trafficstatus for Mac OS X 10.10+"
     IAmTalkingToYouBot:
       repo: IAmTalkingToYouBot
-      desc: "A Telegram Bot that replies to any kind of mention"
     sparkle-autorelease:
       repo: sparkle-autorelease
       intern: /projects/sparkle-autorelease.html
-      desc: "Makes dsa-signed releases for OS X 10.10+ apps using Sparkle-Framework much easier"
   tdolist:
     website:
       extern: 'http://tdolist.de'
       name: "tdo website"
       repo: "tdolist.github.io"
-      desc: "Web page of the tdolist organization."
     tdo:
       repo: tdo
-      desc: "A todo list tool for the terminal, written in Python."
     tdo-server:
       repo: tdo-server
-      desc: "Server that manages your tdo lists, syncs them to your devices and sends you notifications"

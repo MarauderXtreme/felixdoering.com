@@ -5,13 +5,16 @@ github_link: h4llow3En/sparkle-autorelease
 status: "released"
 languages: [Python]
 ---
-Ihr schreibt Anwendungen für OS X und verwendet das [Sparkle-Framework](http://sparkle-project.org) um bei den Nutzern die Anwendungen zu updaten?
-Wenn man keine Developer-ID für Mac hat, kann das schon ziemlich umständlich sein, vorallem, wenn man gleichzeitig auch den Release auf Github veröffentlichen möchte.
+Publish a new release of an OS X application via the [Sparkle-Framework](http://sparkle-project.org) can be a mess if you are not an OS X Developer. You have to go to serveral Points manually.
 
-Sparkle-Autorelease übernimmt das zumindest Teilweise. Alle wichtigen Informationen sind in einer .json-Datei gespeichert und das Script macht dann folgendes:
-1. Die neue .zip signieren
-2. Auf Github einen neuen Release erstellen und die zip uploaden
-3. In den gh-pages-Branch wechseln und die appcast.xml updaten
-4. Das ganze pushen und wieder in den master Branch wechseln
+This script makes dsa-signed releases for your app using [github-release](https://github.com/aktau/github-release).
 
-__Hinweis:__ Das Script funtioniert __*nur*__, wenn die appcast.xml im selben Repository wie die App nur im gh-pages Branch gehostet ist.
+#### Usage
+The script only works with Python2.7 (Python3 will be supportet later).
+
+1. Build and zip your App as usual.
+2. To publish a new release update the config.json
+3. Run `python release.py`
+4. Done
+
+__Notice:__ This script works __*only*__ if the appcast.xml is in the same repository in the gh-pages branch.

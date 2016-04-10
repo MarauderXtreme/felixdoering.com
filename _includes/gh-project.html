@@ -12,17 +12,41 @@
           {% else %}
             <h4 class="post-desc-title">{{ repo.repo }}</h4>
           {% endif %}
-          {% if repo.desc %}
-            <p class="post-desc-preview">{{ repo.desc }}</p>
-          {% endif %}
+          <p class="post-desc-preview" id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}"></p>
+          <ul class="button-group even-3 nolisting">
+            <li>
+              <a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/watchers" target="_blank" class="button custombutton"><i class="octicon octicon-eye"></i>
+                <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched"></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/stargazers" target="_blank" class="button custombutton"><i class="octicon octicon-star"></i>
+                <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared"></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/network" target="_blank" class="button custombutton"><i class="octicon octicon-repo-forked"></i>
+                <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked"></span>
+              </a>
+            </li>
+          </ul>
+
           <p>Links:
             {% if repo.intern %}
               <a href="{{ repo.intern | predend: site.baseurl }}"><i class="fi-page-multiple space"></i></a>
             {% endif %}
             {% if repo.extern %}
-              <a href="{{ repo.extern }}"><i class="fi-web space"></i></a>
+              <a href="{{ repo.extern }}" target="_blank"><i class="fi-web space"></i></a>
             {% endif %}
-            <a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}"><i class="fi-social-github space"></i></a>
+            <a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}" target="_blank"><i class="fi-social-github space"></i></a>
+            <script>
+              $.getJSON("https://api.github.com/repos/{{ user[0] }}/{{ repo.repo }}", function(data) {
+                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}').text(data.description);
+                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched').text(data.subscribers_count);
+                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared').text(data.stargazers_count);
+                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked').text(data.forks_count);
+                });
+            </script>
           </p>
         </div>
       </article>
