@@ -21,6 +21,13 @@ $red-light: #B12109;
         color: $hcol;
     }
 }
+
+@mixin shadow($color, $radius) {
+    -webkit-box-shadow: 0 0 $radius 0 $color;
+    -moz-box-shadow: 0 0 $radius 0 $color;
+    box-shadow: 0 0 $radius 0 $color;
+}
+
 h1,
 h2,
 h3,
