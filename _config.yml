@@ -41,4 +41,6 @@ collections:
     output: true
   quick_facts:
 
+exclude: [vendor]
+
 gems: [jekyll-paginate]
