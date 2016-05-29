@@ -6,6 +6,9 @@ github:
       name: "momendlos Desktop"
       repo: momendlos_Desktop
       intern: /projects/momendlos_Desktop.html
+    pi_lcd:
+      repo: pi_lcd
+      intern: /projects/pi_lcd.html
     Thermometer:
       repo: Thermometer
       intern: /projects/Thermometer.html
