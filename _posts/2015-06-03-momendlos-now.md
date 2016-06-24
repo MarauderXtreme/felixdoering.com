@@ -6,7 +6,7 @@ related: momendlos_Desktop
 ---
 Ein neues kleines Projekt bahnt sich den Weg in meinen Kopf: Es ist eine Kombination aus meinem Photoblog und Programmierung.
 
-Ich habe die Idee, den Leuten, die gerne die Bilder von [momendlos](http://momendlos.de) sehen und auch haben möchten, diese ganz einfach als Hintergrundbild zur Verfügung zu stellen. Wenn zumindest der erste Teil ([momendlos_Desktop](http://felixdoering.com/projects/momendlos_Desktop.html)) fertig ist, dann ist es vorerst leider nur Mac Nutzern möglich, immer das aktuellste Photo von momendlos direkt als Hintergrundbild zu haben, oder eine Slideshow aller verfügbaren Bilder.
+Ich habe die Idee, den Leuten, die gerne die Bilder von [momendlos](http://momendlos.de) sehen und auch haben möchten, diese ganz einfach als Hintergrundbild zur Verfügung zu stellen. Wenn zumindest der erste Teil ([momendlos_Desktop](/projects/momendlos_Desktop.html)) fertig ist, dann ist es vorerst leider nur Mac Nutzern möglich, immer das aktuellste Photo von momendlos direkt als Hintergrundbild zu haben, oder eine Slideshow aller verfügbaren Bilder.
 
 Ich habe mich auch schon hingesetzt und eine kleine API geschrieben. Je nach dem, welche Parameter im GET-Request mitgegeben werden, wird ein JSON-File mit entweder [allen](http://download.momendlos.de/getImage.php), [einem zufälligen](http://download.momendlos.de/getImage.php?method=random) oder [dem aktuellsten](http://download.momendlos.de/getImage.php?method=last) Photo und seinen Daten zurück gegeben.
 
