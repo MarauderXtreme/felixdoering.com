@@ -5,20 +5,20 @@ date:   2016-10-27 11:07:00+02:00
 related: tdo-notify
 ---
 
-It felt like a long time ago when Felix an I build the terminal todo list [tdo](http://tdolist.de). But now I there was time to build something new!  
+It felt like a long time ago when Felix and I built the terminal todo list [tdo](http://tdolist.de). But now there was time to build something new!  
 We started to rewrite this project in Rust a while ago, but in between I had no time to practice this language at all. So I tried to teach myself again on a different project. A notifier should be good. I want to get a mail with all my tasks.  
 
 This idea was the beginning of [tdo-notify](https://github.com/tdolist/tdo-notify) a tool that can be run in a cronjob to notify you every day.
 Because of the similarity between Rust and Swift it was a bit tricky to remember the correct syntax and I had some problems with the borrow checker.
 All in all after reading tons of documentations of the different crates there was a version that worked. But there was nothing personal in it. Just the tasks, no initial sentence.  
 
-How do you get the full name of the current user? This would be nice, if you have a greeting in that mail!  
+How do you get the full name of the current user? It would be nice, if you have a greeting in that mail!  
 Well, you could use ``finger `whoami` `` to get the user information. The only thing is, that I don't want to spawn a subprocess.  
 There is another method: using libc.  
 
 It took me hours to get a satisfying result and I ended up with the following piece of code:
 
-{% highlight rs %}
+{% highlight rust %}
 extern crate libc;
 use std::{slice, io, ptr};
 
