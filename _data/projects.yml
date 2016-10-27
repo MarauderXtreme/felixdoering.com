@@ -30,3 +30,5 @@ github:
       repo: tdo
     tdo-server:
       repo: tdo-server
+    tdo-notify:
+      repo: tdo-notify
