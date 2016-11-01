@@ -1,5 +1,5 @@
 "In A Mood":
-  image: "in_a_mood.png"
+  image: "in_a_mood"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/2xiNeCqTr302SwIvlhpgFd"
   amusic: "https://itunes.apple.com/de/playlist/in-a-mood/idpl.e718647ff6f7468082a6fb60fe722a17"
   tracks:
@@ -52,7 +52,7 @@
       title: "Still In Love With You"
       artist: "Thin Lizzy"
 "Swing that Jazz":
-  image: "swing_that_jazz.png"
+  image: "swing_that_jazz"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/2rrMnSvEPupIQopncUn2lS"
   amusic: "https://itunes.apple.com/de/playlist/swing-that-jazz/idpl.97765039383d4f3f8ec2841a9ccd66cd"
   tracks:
@@ -96,10 +96,14 @@
       title: "Mack the Knife"
       artist: "Louis Armstrong & His All Stars"
 "Game On":
-  image: "game_on.png"
+  image: "game_on"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/7JA8gA11iDrd6ICqnmVHNa"
   amusic: "https://itunes.apple.com/de/playlist/game-on/idpl.67ddd4c52ac24c06b6f88b45e6542b98"
 "Electro Swing":
-  image: "elektro_swing.png"
+  image: "elektro_swing"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/1kzacS2VQWuaeioZxVObjL"
   amusic: "https://itunes.apple.com/de/playlist/elektro-swing/idpl.304f12f8a7b84315aceac81b3a7f8eb3"
+"The Randome":
+  image: "the_randome"
+  spotify: "https://open.spotify.com/user/letslistentogether/playlist/0jHDroXUwoxGRSVqFxznGL"
+  amusic: "https://itunes.apple.com/de/playlist/the-randome/idpl.828bd8b5afed420dad37106b28dc5533"
