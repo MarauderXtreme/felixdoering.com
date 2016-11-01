@@ -1,0 +1,23 @@
+<div class="playlist-container">
+    {% for list in site.data.playlists %}
+    <div class="playlist"><!--<a class="outer-playlist" href="{{ list[0] | replace:' ','_' | prepend: "/playlists/" | prepend: site.baseurl }} ">--><img src="{{ "/images/playlist/" | prepend: site.baseurl | append: list[1].image }}" /><!--</a>-->
+        <p>{{ list[0] }}</p>
+        {% if list[1].amusic %}
+        <a href="{{ list[1].amusic }}" target="_blank">
+        {% else %}
+        <a>
+        {% endif %}
+            <i class="fa fa-apple"></i>
+            <span>Apple Music</span>
+        </a>
+        {% if list[1].spotify %}
+        <a href="{{ list[1].spotify }}" target="_blank">
+        {% else %}
+        <a>
+        {% endif %}
+            <i class="fa fa-spotify"></i>
+            <span>Spotify</span>
+        </a>
+    </div>
+    {% endfor %}
+</div>

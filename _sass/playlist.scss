@@ -1,0 +1,87 @@
+$playlist-container-width: 70rem;
+$playlist-height: 10rem;
+$playlist-width: 30rem;
+$image-space: 0.4rem;
+$playlist-text-left-space: .9rem;
+$playlist-right-space: $playlist-text-left-space;
+$playlist-text-top-space: 0.5rem;
+$playlist-text-bottom-space: $playlist-text-top-space;
+$playlist-font-size: 1.8rem;
+$playlist-buttons-space-between: 0.1rem;
+$playlist-button-padding: 0.2rem 0.8rem 0.3rem 0.8rem;
+$playlist-border-width: 1px;
+$playlist-border-color: $red-dark;
+$playlist-disabled-color: #555;
+@mixin box-sizing($type) {
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+    box-sizing: $type;
+}
+@mixin button($color) {
+    text-decoration: none;
+    border: $playlist-border-width solid $color;
+}
+
+.playlist-container {
+    width: $playlist-container-width;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.playlist {
+    @include box-sizing(content-box);
+    display: inline-block;
+    width: $playlist-width;
+    height: $playlist-height;
+    padding: 1rem 0;
+    overflow: hidden;
+
+    img {
+        height: $playlist-height - 2 * $image-space;
+        width: $playlist-height - 2 * $image-space;
+        margin: $image-space;
+        display: inline-block;
+        float: left;
+    }
+    p {
+        @include box-sizing(border-box);
+        display: inline;
+        width: $playlist-width - ($playlist-height + 2 * $image-space);
+        min-height: $playlist-height/1.5;
+        margin: 0px;
+        padding: 0px;
+        padding-right: $playlist-right-space;
+        float: right;
+        padding-left: $playlist-text-left-space;
+        padding-top: $playlist-text-top-space;
+        padding-bottom: $playlist-text-bottom-space;
+        font-size: $playlist-font-size;
+        overflow: hidden;
+        }
+        a {
+            display: inline-block;
+            margin-left: $playlist-text-left-space*2;
+            margin-right: $playlist-buttons-space-between;
+            padding: $playlist-button-padding;
+            @include button($playlist-border-color);
+            i {
+                display: inline-block;
+            }
+        }
+
+    &:nth-child(2n+1) {
+        float: left;
+    }
+
+    &:nth-child(2n) {
+        float: right;
+    }
+
+    .outer-playlist {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      border: none;
+      display: inline;
+    }
+}

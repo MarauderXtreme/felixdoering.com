@@ -33,6 +33,12 @@ defaults:
       type: "legal"
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "playlist"
+    values:
+      layout: "page"
 
 collections:
   projects:

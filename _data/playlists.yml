@@ -1,0 +1,105 @@
+"In A Mood":
+  image: "in_a_mood.png"
+  spotify: "https://open.spotify.com/user/letslistentogether/playlist/2xiNeCqTr302SwIvlhpgFd"
+  amusic: "https://itunes.apple.com/de/playlist/in-a-mood/idpl.e718647ff6f7468082a6fb60fe722a17"
+  tracks:
+    "01":
+      title: "My Body is a Cage"
+      artist: "Peter Gabriel"
+    "02":
+      title: "Time (Edited)"
+      artist: "Pink Floyd"
+    "03":
+      title: "No Son of Mine"
+      artist: "Genesis"
+    "04":
+      title: "Shape of My Heart"
+      artist: "Sting"
+    "05":
+      title: "Shadow on the Wall"
+      artist: "Mike Oldfield"
+    "06":
+      title: "The Great Unravelling"
+      artist: "Fish"
+    "07":
+      title: "Into the Wild"
+      artist: "Johnossi"
+    "08":
+      title: "Fake Empire"
+      artist: "The National"
+    "09":
+      title: "Who Wants To Live Forever"
+      artist: "Queen"
+    "10":
+      title: "Here Comes the Sun"
+      artist: "The Beatles"
+    "11":
+      title: "Put Your Lights On (feat. Everlast)"
+      artist: "Santana"
+    "12":
+      title: "(Ghost) Riders In the Sky"
+      artist: "Johny Cash"
+    "13":
+      title: "Boat on the River"
+      artist: "Styx"
+    "14":
+      title: "In the Army Now"
+      artist: "Status Qou"
+    "15":
+      title: "Lady in Black"
+      artist: "Urian Heep"
+    "16":
+      title: "Still In Love With You"
+      artist: "Thin Lizzy"
+"Swing that Jazz":
+  image: "swing_that_jazz.png"
+  spotify: "https://open.spotify.com/user/letslistentogether/playlist/2rrMnSvEPupIQopncUn2lS"
+  amusic: "https://itunes.apple.com/de/playlist/swing-that-jazz/idpl.97765039383d4f3f8ec2841a9ccd66cd"
+  tracks:
+    "01":
+      title: "It Don't Mean a Thing (If Ain't Got That Swing)"
+      artist: "Lady Gaga & Tony Benett"
+    "02":
+      title: "Glam"
+      artist: "Dimie Cat"
+    "03":
+      title: "Gypsy Curse"
+      artist: "The Speakeasies' Swing Band!"
+    "04":
+      title: "Hey Pachuco!"
+      artist: "Royal Crown Revue"
+    "05":
+      title: "Sing, Sing, Sing"
+      artist: "BBC Big Band Orchestra"
+    "06":
+      title: "Fly Me To the Moon (feat. Count Basie and His Orchestra)"
+      artist: "Frank Sinatra"
+    "07":
+      title: "Villes Ville in the Place, Man"
+      artist: "Duke Ellington & Johnny Hodges"
+    "08":
+      title: "Happy Feet"
+      artist: "Fletcher Henderson"
+    "09":
+      title: "Baubles, Bangles and Beads"
+      artist: "June Christy"
+    "10":
+      title: "Teo O'clock Jump"
+      artist: "Harry James"
+    "11":
+      title: "Leap Frog"
+      artist: "Les Brown & His Band of Renown"
+    "12":
+      title: "Someday (You'll Be Sorry)"
+      artist: "Louis Armstrong & His All Stars"
+    "13":
+      title: "Mack the Knife"
+      artist: "Louis Armstrong & His All Stars"
+"Game On":
+  image: "game_on.png"
+  spotify: "https://open.spotify.com/user/letslistentogether/playlist/7JA8gA11iDrd6ICqnmVHNa"
+  amusic: "https://itunes.apple.com/de/playlist/game-on/idpl.67ddd4c52ac24c06b6f88b45e6542b98"
+"Electro Swing":
+  image: "elektro_swing.png"
+  spotify: "https://open.spotify.com/user/letslistentogether/playlist/1kzacS2VQWuaeioZxVObjL"
+  amusic: "https://itunes.apple.com/de/playlist/elektro-swing/idpl.304f12f8a7b84315aceac81b3a7f8eb3"
