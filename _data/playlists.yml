@@ -99,11 +99,225 @@
   image: "game_on"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/7JA8gA11iDrd6ICqnmVHNa"
   amusic: "https://itunes.apple.com/de/playlist/game-on/idpl.67ddd4c52ac24c06b6f88b45e6542b98"
+  tracks:
+    "01":
+      title: "Heart of Courage"
+      artist: "Two Steps From Hell"
+    "02":
+      title: "Russia (The Atomic Era)"
+      artist: "Geoff Knorr & Phill Boucher"
+    "03":
+      title: "Leaving Earth"
+      artist: "Clint Mansell"
+    "04":
+      title: "Fever Dream"
+      artist: "Brian Tyler"
+    "05":
+      title: "Shard"
+      artist: "Solar Fields"
+    "06":
+      title: "City of Rome"
+      artist: "Jesper Kyd"
+    "07":
+      title: "That is Impossible"
+      artist: "Bryan Tyler & EA Games Soundtrack"
+    "08":
+      title: "Leoric"
+      artist: "Russell Brower, Derek Duke, Glenn Stafford, Joseph Lawrence, Neal Acree, Laurence Juber & Edo Guidotti"
+    "09":
+      title: "After Science"
+      artist: "EA Games Soundtrack"
+    "10":
+      title: "Burning Ambush"
+      artist: "Danny Baranowsky"
+    "11":
+      title: "Smugglers"
+      artist: "Gustavo Santaolalla"
+    "12":
+      title: "Marooned"
+      artist: "Hanry Jackman"
+    "13":
+      title: "5 Jears, 3 Month, 18 Days"
+      artist: "Jesse Harlin"
+    "14":
+      title: "The World's Grave"
+      artist: "Michael Salvatori, C Paul Johnson, Martin O Donnell & Paul McCartney"
+    "15":
+      title: "Meridian Crossing"
+      artist: "Kazuma Jinnouchi"
+    "16":
+      title: "Elizabeth's Theme (Instrumental Piano Mix)"
+      artist: "Thematic Pianos"
+    "17":
+      title: "47 in St. Petersburg"
+      artist: "Jesper Kyd"
+    "18":
+      title: "Demon Realm"
+      artist: "Jesper Kyd"
+    "19":
+      title: "Assaulting Krom's Canyon"
+      artist: "Jesper Kyd"
+    "20":
+      title: "(Theme From) Red Dead Redemption"
+      artist: "Bill Elm & Woody Jackson"
+    "21":
+      title: "The Girl"
+      artist: "HEALTH"
+    "22":
+      title: "Scott Shelby's Main Theme"
+      artist: "Normand Corbeil"
+    "23":
+      title: "Call Him Off"
+      artist: "Nick Arundel"
+    "24":
+      title: "A Survivor Is Born"
+      artist: "Jason Graves"
+    "25":
+      title: "Still Alive"
+      artist: "Aperture Science Psychoacoustic Laboratories"
 "Electro Swing":
   image: "elektro_swing"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/1kzacS2VQWuaeioZxVObjL"
   amusic: "https://itunes.apple.com/de/playlist/elektro-swing/idpl.304f12f8a7b84315aceac81b3a7f8eb3"
+  tracks:
+    "01":
+      title: "My Sound"
+      artist: "The Sweet Life Society & Le Sorelle Marinetti"
+    "02":
+      title: "All Night"
+      artist: "Parov Stelar"
+    "03":
+      title: "Thrift Shop (Bart & Baker Remix)"
+      artist: "Scott Bradlee's Postmodern Jukebox"
+    "04":
+      title: "Gyspyland (Dr. Cat Mora Swing Remix)"
+      artist: "Feel Good Productions"
+    "05":
+      title: "The Mojo Radio Gang"
+      artist: "Parov Stelar"
+    "06":
+      title: "Mr Saxo Phone"
+      artist: "The Swing Towers"
+    "07":
+      title: "Hey Listen (Deja-Move Remix)"
+      artist: "Alan de Laniere"
+    "08":
+      title: "Straight to Memphis (feat. Brenda Boykin)"
+      artist: "Club des Belugas"
+    "09":
+      title: "It Don't Mean a Thing (If It Ain't Got That Swing) [Club Mix]"
+      artist: "Lionel Hampton"
 "The Randome":
   image: "the_randome"
   spotify: "https://open.spotify.com/user/letslistentogether/playlist/0jHDroXUwoxGRSVqFxznGL"
   amusic: "https://itunes.apple.com/de/playlist/the-randome/idpl.828bd8b5afed420dad37106b28dc5533"
+  tracks:
+    "01":
+      title: "The Modjo Radio Gang (Radio Version)"
+      artist: "Parov Stelar"
+    "02":
+      title: "Fade Out Lines"
+      artist: "The Avener"
+    "03":
+      title: "She Moves (feat. Graham Candy) [Skip Version]"
+      artist: "Alle Farben"
+    "04":
+      title: "Jubel (Radio Edit)"
+      artist: "Klingande"
+    "05":
+      title: "Reality (feat. Janieck Devy)"
+      artist: "Lost Frequencies"
+    "06":
+      title: "Stolen Dance"
+      artist: "Milky Chance"
+    "07":
+      title: "Lonely Boy"
+      artist: "The Avener"
+    "08":
+      title: "Feels Like This (feat. Belle Humble)"
+      artist: "Lexer"
+    "09":
+      title: "In This Game (Radio Edit)"
+      artist: "Fritz Kalkbrenner"
+    "10":
+      title: "Sonnentanz"
+      artist: "Klangkarussell"
+    "11":
+      title: "Paradise Awaits"
+      artist: "ZHU"
+    "12":
+      title: "Running"
+      artist: "Milky Chance"
+    "13":
+      title: "Lonely Land (feat. Sway Clarke)"
+      artist: "Alle Farben"
+    "14":
+      title: "State of the Art"
+      artist: "Gotye"
+"In Your Head":
+  image: "in_your_head"
+  amusic: "https://itunes.apple.com/de/playlist/in-your-head/idpl.3a2f04ef341b4c63ae7531dd559b6765"
+  tracks:
+    "01":
+      title: "Don't Break My Heart Again (2003 Remaster)"
+      artist: "Whitesnake"
+    "02":
+      title: "Milk and Alcohol"
+      artist: "Dr. Feelgood"
+    "03":
+      title: "Self Control"
+      artist: "Raf"
+    "04":
+      title: "Big In Japan - Best Of-Version"
+      artist: "Alphaville"
+    "05":
+      title: "Paint It Black"
+      artist: "The Rolling Stones"
+    "06":
+      title: "The Safety Dance"
+      artist: "Men Without Hats"
+    "07":
+      title: "RUNNING IN THE 90S"
+      artist: "MAX COVERI"
+    "08":
+      title: "What Is Love"
+      artist: "Haddaway"
+    "09":
+      title: "Zombie"
+      artist: "The Cranberries"
+    "10":
+      title: "I Like To Move It"
+      artist: "will.i.am"
+    "11":
+      title: "The Rhythm of the Night"
+      artist: "Corona"
+    "12":
+      title: "Don't Gimme That"
+      artist: "The BossHoss"
+    "13":
+      title: "I'm Gonna Be (500 Miles)"
+      artist: "The Proclaimers"
+    "14":
+      title: "Dancing with Tears in My Eyes"
+      artist: "Ultravox"
+    "15":
+      title: "Stop the Rain in the Night"
+      artist: "Silent Circle"
+    "16":
+      title: "Call on Me (Radio Edit)"
+      artist: "Eric Prydz"
+    "17":
+      title: "I Can't Dance"
+      artist: "Genesis"
+    "18":
+      title: "Stayin' Alive"
+      artist: "Bee Gees"
+    "19":
+      title: "Another Brick In the Wall, Pt. 2"
+      artist: "Pink Floyd"
+    "20":
+      title: "Cheri Cheri Lady"
+      artist: "Modern Talking"
+    "21":
+      title: "Because the Night"
+      artist: "Patti Smith"

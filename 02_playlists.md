@@ -7,6 +7,8 @@ permalink: /playlists/
 From time to time I am putting together some titles into playlists. It helps me to connect themes with different feelings.  
 And I want to share them with you!
 
+For more information about the lists themself click onto the images. 
+
 
 {% include playlist.html %}
 

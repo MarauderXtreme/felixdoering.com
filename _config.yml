@@ -36,7 +36,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "playlist"
+      type: "playlists"
     values:
       layout: "page"
 
@@ -45,7 +45,8 @@ collections:
     output: true
   legal:
     output: true
-  quick_facts:
+  playlists:
+    output: true
 
 exclude: [vendor,Gemfile*]
 
