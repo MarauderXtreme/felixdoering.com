@@ -1,6 +1,6 @@
 <div class="playlist-container">
     {% for list in site.data.playlists %}
-    <div class="playlist"><a class="outer-playlist" href="{{ list[0] | replace:' ','_' | prepend: "/playlists/" | prepend: site.baseurl }} "><img src="{{ "/images/playlists/" | prepend: site.baseurl | append: list[1].image | append: "@0,5x.png" }}" /></a>
+    <div class="playlist"><a class="outer-playlist" href="{{ list[0] | replace:' ','_' | prepend: "/playlists/" | prepend: site.baseurl | append: '.html' }} "><img src="{{ "/images/playlists/" | prepend: site.baseurl | append: list[1].image | append: "@0,5x.png" }}" /></a>
         <p>{{ list[0] }}</p>
         {% if list[1].amusic %}
         <a href="{{ list[1].amusic }}" target="_blank">
