@@ -256,6 +256,7 @@
       artist: "Gotye"
 "In Your Head":
   image: "in_your_head"
+  spotify: "https://open.spotify.com/user/letslistentogether/playlist/3A9cowphbKfHsumlbqhfAI"
   amusic: "https://itunes.apple.com/de/playlist/in-your-head/idpl.3a2f04ef341b4c63ae7531dd559b6765"
   tracks:
     "01":
