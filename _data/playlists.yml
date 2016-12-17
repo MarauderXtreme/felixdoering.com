@@ -325,3 +325,43 @@
     "22":
       title: "Because the Night"
       artist: "Patti Smith"
+"Tears":
+  image: "tears"
+  amusic: "https://itunes.apple.com/de/playlist/tears/idpl.50fee040e9774a99902eea7461507fbd"
+  tracks:
+    "01":
+      title: "When the Children Cry"
+      artist: "White Lion"
+    "02":
+      title: "Nothing Else Matters"
+      artist: "Metallica"
+    "03":
+      title: "Hurt"
+      artist: "Johnny Cash"
+    "04":
+      title: "Wish You Where Here"
+      artist: "Pink Floyd"
+    "05":
+      title: "Can't Get It Out of My Head (7\" Edit)"
+      artist: "Electric Light Orchestra"
+    "06":
+      title: "Damaged By Love"
+      artist: "Tom Petty"
+    "07":
+      title: "Here Without You"
+      artist: "3 Doors Down"
+    "08":
+      title: "Snake Eyes"
+      artist: "Mumford & Sons"
+    "09":
+      title: "You See Me Crying"
+      artist: "Aerosmith"
+    "10":
+      title: "Stairway to Heaven"
+      artist: "Led Zeppelin"
+    "11":
+      title: "Blackberry Stone"
+      artist: "Laura Marling"
+    "12":
+      title: "Still In Love With You"
+      artist: "Thin Lizzy"
