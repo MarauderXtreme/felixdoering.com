@@ -327,6 +327,7 @@
       artist: "Patti Smith"
 "Tears":
   image: "tears"
+  spotify: "http://open.spotify.com/user/letslistentogether/playlist/1odygeskmEaQ4DEu950Wv0"
   amusic: "https://itunes.apple.com/de/playlist/tears/idpl.50fee040e9774a99902eea7461507fbd"
   tracks:
     "01":
