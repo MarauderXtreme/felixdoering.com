@@ -366,3 +366,82 @@
     "12":
       title: "Still In Love With You"
       artist: "Thin Lizzy"
+"Heavy and Rusty":
+    image: "heavy_and_rusty"
+    amusic: "https://itunes.apple.com/de/playlist/heavy-and-rusty/idpl.8aac9d6f5ecc44ccb1287bbb328e9c88"
+    tracks:
+      "01":
+        title: "Panic In the Pentagram"
+        artist: "Powerwolf"
+      "02":
+        title: "What Are You Waiting For?"
+        artist: "Aeverium"
+      "03":
+        title: "Phantom of the Opera"
+        artist: "Iron Maiden"
+      "04":
+        title: "The Day That Never Comes"
+        artist: "Metallica"
+      "05":
+        title: "Redneck"
+        artist: "Lamb of God"
+      "06":
+        title: "Lost in Forever"
+        artist: "Beyond The Black"
+      "07":
+        title: "Party In the Penthouse (Bonus Track)"
+        artist: "Airbourne"
+      "08":
+        title: "Heartbreaker"
+        artist: "Motörhead"
+      "09":
+        title: "War Is My Sheppard"
+        artist: "Exodus"
+      "10":
+        title: "Piece of Time"
+        artist: "Atheist"
+      "11":
+        title: "Wrong Side of Heaven"
+        artist: "Five Finger Death Punch"
+      "12":
+        title: "Panzerkampf"
+        artist: "Sabaton"
+      "13":
+        title: "Earthly Illusions"
+        artist: "DIABULUS IN MUSICA"
+      "14":
+        title: "God Is Dead?"
+        artist: "Black Sabbath"
+      "15":
+        title: "Battle Cry"
+        artist: "Judas Priest"
+      "16":
+        title: "Berlin"
+        artist: "Hail of Bullets"
+      "17":
+        title: "Beer Beer"
+        artist: "Korpiklaani"
+      "18":
+        title: "Suicide Machine"
+        artist: "Pain"
+      "19":
+        title: "This is Deutsch"
+        artist: "Eisbrecher"
+      "20":
+        title: "Ruttolehto sis. Päivättömän Päivän Kansa"
+        artist: "Moonsorrow"
+      "21":
+        title: "Tanz auf dem Vulkan"
+        artist: "Subway to Sally"
+      "22":
+        title: "No Gods, No Masters"
+        artist: "Arch Enemy"
+      "23":
+        title: "Raise Your Horns"
+        artist: "Amon Amarth"
+      "24":
+        title: "Pirates of the Caribbean"
+        artist: "Epica"
+      "25":
+        title: "Illumination Theory"
+        artist: "Dream Theater"
