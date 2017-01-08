@@ -446,3 +446,82 @@
       "25":
         title: "Illumination Theory"
         artist: "Dream Theater"
+"Retro is calling":
+    image: "retro_is_calling"
+    amusic: "https://itunes.apple.com/de/playlist/retro-is-calling/idpl.52f6874cf76b473a825c58c8ae05adaf"
+    tracks:
+      "01":
+        title: "Der Kommissar"
+        artist: "Falco"
+      "02":
+        title: "Don't Stop Believin'"
+        artist: "Journey"
+      "03":
+        title: "Hold the Line"
+        artist: "Toto"
+      "04":
+        title: "Escape (The Pina Colada Song)"
+        artist: "Rupert Holmes"
+      "05":
+        title: "Take On Me"
+        artist: "a-ha"
+      "06":
+        title: "Smalltown Boy"
+        artist: "Bronski Beat"
+      "07":
+        title: "You Sexy Thing"
+        artist: "Hot Chocolate"
+      "08":
+        title: "I Wanna Dance with Somebody (Who Loves Me)"
+        artist: "Whitney Houston"
+      "09":
+        title: "Careless Whisper"
+        artist: "George Michael"
+      "10":
+        title: "Starlight"
+        artist: "Electric Light Orchestra"
+      "11":
+        title: "Start Me Up"
+        artist: "The Rolling Stones"
+      "12":
+        title: "La Bamba"
+        artist: "Los Lobos"
+      "13":
+        title: "Car Wash"
+        artist: "Rose Royce"
+      "14":
+        title: "Hotel California"
+        artist: "Eagles"
+      "15":
+        title: "Ma Baker"
+        artist: "Boney M."
+      "16":
+        title: "Hit the Road, Jack"
+        artist: "Helen Reddy"
+      "17":
+        title: "Hells Bells"
+        artist: "AC/DC"
+      "18":
+        title: "About a Girl"
+        artist: "Nirvana"
+      "19":
+        title: "Eye of the Tiger"
+        artist: "Survivor"
+      "20":
+        title: "Sweet Home Alabama"
+        artist: "Lynyrd Skynyrd"
+      "21":
+        title: "Kashmir"
+        artist: "Led Zeppelin"
+      "22":
+        title: "Smoke On the Water"
+        artist: "Deep Purple"
+      "23":
+        title: "Alabama Song (Whisky Bar)"
+        artist: "The Doors"
+      "24":
+        title: "Get It On"
+        artist: "T. Rex"
+      "25":
+        title: "Born In the U.S.A."
+        artist: "Bruce Springsteen"
