@@ -449,6 +449,7 @@
 "Retro is calling":
     image: "retro_is_calling"
     amusic: "https://itunes.apple.com/de/playlist/retro-is-calling/idpl.52f6874cf76b473a825c58c8ae05adaf"
+    spotify: "https://open.spotify.com/user/letslistentogether/playlist/4hfDPwF3l563Hj4uMc8d1c"
     tracks:
       "01":
         title: "Der Kommissar"
