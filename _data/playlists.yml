@@ -526,3 +526,82 @@
       "25":
         title: "Born In the U.S.A."
         artist: "Bruce Springsteen"
+"Hell of a Ride":
+    image: "hell_of_a_ride"
+    amusic: "https://itunes.apple.com/de/playlist/hell-of-a-ride/idpl.4189c1e24f3f49daa4f48d46d3ce56c9"
+    tracks:
+      "01":
+        title: "Born to Run"
+        artist: "Bruce Springsteen"
+      "02":
+        title: "Danger Zone"
+        artist: "Kenny Loggins"
+      "03":
+        title: "Highway to Hell"
+        artist: "AC/DC"
+      "04":
+        title: "Kickstart My Heart"
+        artist: "Mötley Crüe"
+      "05":
+        title: "God of Thunder"
+        artist: "Kiss"
+      "06":
+        title: "Highway Star"
+        artist: "Deep Purple"
+      "07":
+        title: "Nailed to the Wheel"
+        artist: "Edguy"
+      "08":
+        title: "The Killing Road"
+        artist: "Megadeth"
+      "09":
+        title: "(We Are) The Roadcrew"
+        artist: "Motörhead"
+      "10":
+        title: "Tractor"
+        artist: "Monster Magnet"
+      "11":
+        title: "X-Ray Visions"
+        artist: "Clutch"
+      "12":
+        title: "Get Your Gear"
+        artist: "The Atomic Bitchwax"
+      "13":
+        title: "Fuel"
+        artist: "Metallica"
+      "14":
+        title: "Green Machine"
+        artist: "Kyuss"
+      "15":
+        title: "Street Lethal (feat. Paul Gilbert)"
+        artist: "Racer X"
+      "16":
+        title: "Warriors of the Road"
+        artist: "Saxon"
+      "17":
+        title: "Raw Ride"
+        artist: "Running Wild"
+      "18":
+        title: "My God-Given Right"
+        artist: "Helloween"
+      "19":
+        title: "Fueled"
+        artist: "Anthrax"
+      "20":
+        title: "Road to Asylum"
+        artist: "Primal Fear"
+      "21":
+        title: "Machinehead"
+        artist: "Bush"
+      "22":
+        title: "I Speed At Night"
+        artist: "Dio"
+      "23":
+        title: "Walk"
+        artist: "Pantera"
+      "24":
+        title: "Breaking the Law"
+        artist: "Judas Priest"
+      "25":
+        title: "Streets of Fire"
+        artist: "Place Vendome"
