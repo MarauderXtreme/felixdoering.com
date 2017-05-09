@@ -529,6 +529,7 @@
 "Hell of a Ride":
     image: "hell_of_a_ride"
     amusic: "https://itunes.apple.com/de/playlist/hell-of-a-ride/idpl.4189c1e24f3f49daa4f48d46d3ce56c9"
+    spotify: "https://open.spotify.com/user/letslistentogether/playlist/0aeWQsOK2Ii6i0N6kV7ePa"
     tracks:
       "01":
         title: "Born to Run"
