@@ -606,3 +606,82 @@
       "25":
         title: "Streets of Fire"
         artist: "Place Vendome"
+"Rock of the Past":
+    image: "rock_of_the_past"
+    amusic: "https://itunes.apple.com/de/playlist/rock-of-the-past/idpl.beeab930e7754da4913d08e89ad3886f"
+    tracks:
+      "01":
+        title: "Rape Me"
+        artist: "Nirvana"
+      "02":
+        title: "Seven Nation Army"
+        artist: "The White Stripes"
+      "03":
+        title: "Undone - The Sweater Song"
+        artist: "Weezer"
+      "04":
+        title: "Karma Police"
+        artist: "Radiohead"
+      "05":
+        title: "Kiss Me On the Bus"
+        artist: "The Replacements"
+      "06":
+        title: "Burning Down the House (2005 Remastered)"
+        artist: "Talking Heads"
+      "07":
+        title: "The Noise of Carpet"
+        artist: "Stereolab"
+      "08":
+        title: "Spin the Black Circle"
+        artist: "Pearl Jam"
+      "09":
+        title: "Alison"
+        artist: "Slowdive"
+      "10":
+        title: "Basket Case"
+        artist: "Green Day"
+      "11":
+        title: "Los Angeles"
+        artist: "Frank Black"
+      "12":
+        title: "Car"
+        artist: "Built to Spill"
+      "13":
+        title: "Dirt"
+        artist: "Death In Vegas"
+      "14":
+        title: "100%"
+        artist: "Sonic Youth"
+      "15":
+        title: "In the Aeroplane Over the Sea"
+        artist: "Neutral Milk Hotel"
+      "16":
+        title: "Don't Change"
+        artist: "INXS"
+      "17":
+        title: "A Pair of Brown Eyes"
+        artist: "The Pogues"
+      "18":
+        title: "Killing In the Name"
+        artist: "Rage Against the Machine"
+      "19":
+        title: "Take the Skinheads Bowling"
+        artist: "Camper Van Beethoven"
+      "20":
+        title: "Going Underground"
+        artist: "The Jam"
+      "21":
+        title: "Bullet With Butterfly Wings"
+        artist: "Smashing Pumpkins"
+      "22":
+        title: "Plowed"
+        artist: "Sponge"
+      "23":
+        title: "Rebound"
+        artist: "Sebadoh"
+      "24":
+        title: "Don't Save Us From the Flames"
+        artist: "M83"
+      "25":
+        title: "I Wanna Be Your Boyfriend"
+        artist: "Ramones"

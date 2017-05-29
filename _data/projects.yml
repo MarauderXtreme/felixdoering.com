@@ -27,7 +27,7 @@ github:
       name: "tdo website"
       repo: "tdolist.github.io"
     tdo:
-      repo: tdo
+      repo: tdo-rs
     tdo-server:
       repo: tdo-server
     tdo-notify:
