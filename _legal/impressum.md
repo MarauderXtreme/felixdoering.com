@@ -1,11 +1,11 @@
 ---
-title: Imprimt
+title: Imprint
 layout: page
 ---
 
 Angaben gemäß § 5 TMG:
 
 Felix Döring  
-Zellescher Weg 41b  
-01217 Dresden  
+Reichenbachstr. 60  
+01069 Dresden  
 Mail: [mail@felixdoering.com](mailto:mail@felixdoering.com)
