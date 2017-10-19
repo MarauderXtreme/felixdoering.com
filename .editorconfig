@@ -1,0 +1,24 @@
+# @see http://editorconfig.org/
+
+# This is the top-most .editorconfig file
+# do not search in parent directories
+root = true
+
+# all files
+[*]
+end_of_line = LF
+indent_style = tab
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{yml,yaml}]
+indent_style = space
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+
+[_scss/vendor,js/vendor]
+indent_size = unset
+indent_style = unset

@@ -1,16 +1,18 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body>
-  {% include header.html %}
-  <div class="row minheight" id="content">
-    {{ content }}
-  </div>
-  {% include footer.html %}
-  <script src="{{ '/js/foundation/foundation.min.js' | prepend: site.baseurl }}"></script>
-  <script>
-    $(document).foundation();
-  </script>
-</body>
+	<body>
+		{% include skip-link.html %}
+		{% include header.html %}
+		<main class="grid-container minheight" id="maincontent" tabindex="0">
+			{{ content }}
+		</main>
+		{% include footer.html %}
+
+		{% include lateload-scripts.html %}
+	</body>
 
 </html>

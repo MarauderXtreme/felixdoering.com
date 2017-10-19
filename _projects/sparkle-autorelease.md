@@ -9,7 +9,7 @@ Publish a new release of an OS X application via the [Sparkle-Framework](http://
 
 This script makes dsa-signed releases for your app using [github-release](https://github.com/aktau/github-release).
 
-#### Usage
+## Usage
 The script only works with Python2.7 (Python3 will be supportet later).
 
 1. Build and zip your App as usual.

@@ -1,40 +1,42 @@
 ---
 layout: default
 ---
-<div class="medium-8 columns">
-  <h1 class="page-heading">Posts</h1>
-  {% for post in paginator.posts %}
-    <a class="previewpost" href="{{ post.url | prepend: site.baseurl }}">
-      <article class="post">
-        <div class="post-date">
-          <p class="post-month">{{ post.date | date: "%b" }}</p>
-          <p class="post-day">{{ post.date | date: "%d" }}</p>
-        </div>
+<section class="grid-x grid-padding-x">
+	<h1 id="site-title" class="cell">Posts</h1>
+	<div id="sticky-container" class="cell grid-x grid-padding-x">
+		<div class="medium-8 cell">
+			{% for post in paginator.posts %}
+				<a class="teaser" href="{{ post.url | prepend: site.baseurl }}">
+					<article class="post grid-x grid-padding-x">
+						<div class="medium-2 cell">
+							<div class="calendar-sheet">
+								<p class="month">{{ post.date | date: "%b" }}</p>
+								<p class="day">{{ post.date | date: "%d" }}</p>
+							</div>
+						</div>
 
-        <div class="post-desc">
-          <h4 class="post-desc-title">{{ post.title }}</h4>
-          {% if post.description %}
-            {% assign desc = post.description %}
-          {% else %}
-            {% assign desc = post.excerpt | remove: '<p>' | remove: '</p>' %}
-          {% endif %}
-          <p class="post-desc-preview">{{ desc | strip_html | truncate: site.quick_view_length, '...' }}</p>
-        </div>
+						<div class="medium-10 cell">
+							<h2>{{ post.title }}</h2>
+							{% if post.description %}
+								{% assign desc = post.description %}
+							{% else %}
+								{% assign desc = post.excerpt | remove: '<p>' | remove: '</p>' %}
+							{% endif %}
+							<p>
+								{{ desc | strip_html | truncate: site.quick_view_length, ' …' }}
+							</p>
+						</div>
 
-      </article>
-    </a>
-  {% endfor %}
-  {% include pagination.html %}
-  <hr class="small">
-</div>
+					</article>
+				</a>
+			{% endfor %}
+			{% include pagination.html %}
+		</div>
 
-<div class="medium-3 columns" data-sticky-container id="touch-hide">
-  <div class="sticky side" data-sticky data-anchor="content">
-    {% include info.html %}
-  </div>
-  <script>
-    if (Modernizr.touch) {
-      $('#touch-hide').hide();
-    };
-  </script>
-</div>
+		<aside class="medium-3 cell" data-sticky-container>
+			<div class="sticky" data-sticky data-anchor="sticky-container">
+				{% include info.html %}
+			</div>
+		</aside>
+	</div>
+</section>

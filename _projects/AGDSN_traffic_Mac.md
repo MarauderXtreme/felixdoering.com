@@ -15,13 +15,13 @@ When the used traffic exceeds 3 GiB a notification will be fired if it is activa
 
 Runs on OS X 10.9 Mavericks and 10.10 Yosemite.
 
-#### Download
+## Download
 You can download the latest release [here](https://github.com/h4llow3En/AGDSN_traffic_Mac/releases/latest).
 
-#### Screenshot
+## Screenshot
 ![screenshot](/images/agdsn_traffic.png)
 
-#### Planned features
+## Planned features
 
 - Support for other sections of AG DSN
 - (Maybe) Custom API-Key to receive your traffic status from anywhere in the world

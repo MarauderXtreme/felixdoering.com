@@ -1,0 +1,53 @@
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ *
+ * This application file (myonso-mana.scss) is where all the partials are
+ * imported.
+ *
+ * Theme styles are categorized using SMACSS standards. They utilize
+ * categorization of styles into various categories. Those categories are the
+ * following:
+ *
+ * - Base: CSS reset/normalize plus HTML element styling.
+ * - Layout: Macro arrangement of a web page, including any grid systems.
+ * - Modules: Dictate minor layout modules or reusable elements.
+ * - States: Describe the appearance of a module in various states.
+ * - Theme: Specific customizations for your subtheme.
+ * - http://smacss.com/
+ *
+ * @author Felix Döring
+ * @author Christoph Kepler
+ */
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import 'theme/variables';
+
+// Iconfont imports
+@import 'vendor/font-awesome/font-awesome';
+@import 'vendor/octicons/octicons';
+@import 'vendor/foundation-icons/foundation-icons';
+
+// Foundation imports
+@import 'vendor/foundation/scss/foundation';
+
+@include foundation-everything(true);
+
+// self defined mixins needed for theme
+@import 'mixins/mixins';
+
+// smacss partials
+@import 'base/basic';
+
+@import 'layout/about';
+@import 'layout/footer';
+@import 'layout/menu';
+@import 'layout/aside';
+@import 'layout/syntax';
+
+@import 'modules/pagination';
+@import 'modules/playlist';
+@import 'modules/postprev';
+@import 'modules/project';

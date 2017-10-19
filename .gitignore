@@ -1,7 +1,4 @@
 _site
 .sass-cache
-.DS_Store
-Gemfile
-Gemfile.lock
-vendor/
-.bundle/
+.jekyll-metadata
+bower_components

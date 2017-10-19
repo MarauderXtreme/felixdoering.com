@@ -1,0 +1,42 @@
+a {
+	@include fade($secondary-color, $primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $primary-color;
+}
+
+h1 {
+	margin: 1.25rem 0;
+}
+
+.highlighter-rouge {
+  border: none !important;
+}
+
+.highlight {
+	background: #E6E6E6;
+	padding: 0.3rem 0.7rem;
+	margin-bottom: 2rem;
+  code{
+    padding: 0;
+    border: none !important;
+  }
+}
+
+body {
+	min-height: 100%;
+}
+
+main {
+	min-height: calc(100% - 11rem);
+}
+
+p#skip-link {
+	margin: 0;
+}

@@ -1,23 +1,34 @@
-<div class="playlist-container">
-    {% for list in site.data.playlists %}
-    <div class="playlist"><a class="outer-playlist" href="{{ list[0] | replace:' ','_' | prepend: "/playlists/" | prepend: site.baseurl | append: '.html' }} "><img src="{{ "/images/playlists/" | prepend: site.baseurl | append: list[1].image | append: "@0,5x.png" }}" /></a>
-        <p>{{ list[0] }}</p>
-        {% if list[1].amusic %}
-        <a href="{{ list[1].amusic }}" target="_blank">
-        {% else %}
-        <a>
-        {% endif %}
-            <i class="fa fa-apple"></i>
-            <span>Apple Music</span>
-        </a>
-        {% if list[1].spotify %}
-        <a href="{{ list[1].spotify }}" target="_blank">
-        {% else %}
-        <a>
-        {% endif %}
-            <i class="fa fa-spotify"></i>
-            <span>Spotify</span>
-        </a>
-    </div>
-    {% endfor %}
+<div class="playlist-container grid-x grid-padding-x small-up-1 medium-up-2">
+	{% for list in site.data.playlists %}
+	<div class="playlist cell">
+		<div class="grid-x grid-padding-x">
+			<div class="medium-4 cell">
+				<a href="{{ list[0] | replace:' ','_' | prepend: "/playlists/" | prepend: site.baseurl | append: '.html' }} ">
+					<img src="{{ "/images/playlists/" | prepend: site.baseurl | append: list[1].image | append: "@0,5x.png " }}" />
+				</a>
+			</div>
+			<div class="medium-8 cell">
+				<a href="{{ list[0] | replace:' ','_' | prepend: "/playlists/" | prepend: site.baseurl | append: '.html' }} ">
+					<h2>{{ list[0] }}</h2>
+				</a>
+				{% if list[1].amusic %}
+					<a class="small hollow button" href="{{ list[1].amusic }}" target="_blank">
+				{% else %}
+					<a class="small hollow button" href="#!">
+				{% endif %}
+					<i class="fa fa-apple"></i>
+					<span>Apple Music</span>
+				</a>
+				{% if list[1].spotify %}
+					<a class="small hollow button" href="{{ list[1].spotify }}" target="_blank">
+				{% else %}
+					<a class="small hollow button" href="#!">
+				{% endif %}
+					<i class="fa fa-spotify"></i>
+					<span>Spotify</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
 </div>

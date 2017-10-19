@@ -1,0 +1,20 @@
+{
+  "name": "felixdoering.com",
+  "authors": [
+    "Felix Doering <mail@felixdoering.com>",
+    "Christph Kepler <development@kepler.international>"
+  ],
+  "description": "Homepage of Felix Döring",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "^6.4.3",
+		"motion-ui": "^1.2.3",
+    "modernizr": "^3.5.0",
+    "foundation-icon-fonts": "*",
+    "components-font-awesome": "^4.7.0"
+  }
+}

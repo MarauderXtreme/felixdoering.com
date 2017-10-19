@@ -1,0 +1,11 @@
+.side-info {
+	margin: .75rem .75rem .75rem .75rem;
+	border-color: transparentize($primary-color, 0.7);
+}
+
+aside {
+	margin: 2rem 0;
+	i {
+		color: $primary-color;
+	}
+}
