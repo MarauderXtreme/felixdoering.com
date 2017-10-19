@@ -11,10 +11,10 @@ pi_lcd is a Rust Crate to connect a HD44780 LCD to your Raspberry Pi.
 
 ## Pinout
 
-#### Raspberry Pi with 26 Pins (A, B)
+### Raspberry Pi with 26 Pins (A, B)
 ![pin26](/images/pin26.png)
 
-#### Raspberry Pi with 26 Pins (A+, B+, Pi2 B)
+### Raspberry Pi with 26 Pins (A+, B+, Pi2 B)
 ![pin26](/images/pin40.png)
 
 ## Example
@@ -28,7 +28,6 @@ let lcd = HD44780::new(11,10,[6,5,4,1],20,4);
 // send a String to the lcd at row 0
 lcd.send_string("Hello World".to_string(),0);
 ```
-
 
 ## Usage & Documentation
 
