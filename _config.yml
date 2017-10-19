@@ -9,6 +9,7 @@ github_username:  h4llow3En
 quick_view_length: 300
 paginate: 4
 paginate_path: "/:num/"
+public_repo_token:
 
 # Build settings
 markdown: kramdown
@@ -16,8 +17,18 @@ kramdown:
   input: GFM
 
 sass:
-  sass_dir: _sass
+  sass_dir: _scss
   style: :compressed
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []
 
 defaults:
   -
@@ -48,6 +59,6 @@ collections:
   playlists:
     output: true
 
-exclude: [vendor,Gemfile*]
+exclude: [vendor,Gemfile*,bower.json,bower_components]
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
