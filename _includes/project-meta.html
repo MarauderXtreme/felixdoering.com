@@ -3,32 +3,46 @@
     {% assign project = page %}
   {% endunless %}
 
-  <h4>Project-Info:</h4>
+  <h2>Project-Info:</h2>
 
-  {% if project.languages %}
-    <p><b>Language{% if project.languages.size > 1 %}s{% endif %}:
+	<ul class="menu">
+	{% if project.languages %}
+		<li class="menu-text">
+    	Language{% if project.languages.size > 1 %}s{% endif %}:
       <span class="languages">
         {{ project.languages | join: ", " }}
       </span>
-    </b></p>
+    </li>
   {% endif %}
 
   {% if project.status %}
     {% if project.status == "development" %}
-      <p><b>Status:</b> <span class="dev">&#x25cf  <b>in development</b></span></p>
+      <li class="menu-text">
+				Status: <span class="dev">&#x25cf  in development</span>
+			</li>
     {% elsif project.status == "released" %}
-      <p><b>Status:</b> <span class="released">&#x25cf  <b>released</b></span></p>
+			<li class="menu-text">
+				Status: <span class="released">&#x25cf  released</span>
+			</li>
     {% elsif project.status == "canceled" %}
-      <p><b>Status:</b> <span class="canceled">&#x25cf  <b>project canceled</b></span></p>
+      <li class="menu-text">
+				Status: <span class="canceled">&#x25cf  project canceled</span>
+			</li>
     {% else %}
-      <p><b>Status:</b> <span class="project-status">&#x25cf  <b>Unbekannt</b></span></p>
+      <li class="menu-text">
+				Status: <span class="project-status">&#x25cf  Unbekannt</span>
+			</li>
     {% endif %}
   {% else %}
-    <p><b>Status:</b> <span class="project-status">&#x25cf  <b>Unbekannt</b></span></p>
+    <li class="menu-text">
+			Status: <span class="project-status">&#x25cf  Unbekannt</span>
+		</li>
   {% endif %}
 
   {% if project.github_link %}
-    <p><a href="https://github.com/{{ project.github_link }}" target="_blank">Repository on GitHub</a></p>
+    <li>
+			<a href="https://github.com/{{ project.github_link }}" target="_blank">Repository on GitHub</a>
+		</li>
   {% endif %}
-
+	</ul>
 </div>

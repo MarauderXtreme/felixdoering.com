@@ -1,28 +1,36 @@
-<script src="{{ '/js/vendor/jquery.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/js/vendor/modernizr.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/js/vendor/placeholder.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/js/vendor/fastclick.js' | prepend: site.baseurl }}"></script>
-
-<nav class="menu">
-  <div class="logo">
-    <div class="logo-image"></div>
-    <h1 class="name">{{ site.title }}</h1>
-  </div>
-  <ul class="inline-list">
-    {% assign cururl = page.url %}
-    {% if cururl == '/' | prepend: site.baseurl %}
-      <li class="active"><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-    {% else %}
-      <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-    {% endif %}
-    {% for page in site.pages %}
-      {% if page.title %}
-        {% if cururl contains page.url | prepend: site.baseurl %}
-          <li class="active"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% else %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  </ul>
-</nav>
+<header class="grid-x grid-padding-x">
+	<nav class="cell grid-x">
+		<ul class="title menu medium-4 cell">
+			<li>
+				<a href="{{ '/' | prepend: site.baseurl }}">
+					<img id="site-logo" src="/images/logo.svg" alt="Site Logo" /> <span>{{ site.title }}</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="vertical medium-horizontal link menu medium-align-right medium-8 cell">
+			{% assign cururl = page.url %}
+			{% if cururl == '/' | prepend: site.baseurl %}
+				<li class="is-active">
+					<a href="{{ '/' | prepend: site.baseurl }}">Home</a>
+				</li>
+			{% else %}
+				<li>
+					<a href="{{ '/' | prepend: site.baseurl }}">Home</a>
+				</li>
+			{% endif %}
+			{% for page in site.pages %}
+				{% if page.title %}
+					{% if cururl contains page.url | prepend: site.baseurl %}
+						<li class="is-active">
+							<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						</li>
+					{% else %}
+						<li>
+							<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+</header>

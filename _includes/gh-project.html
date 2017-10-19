@@ -1,56 +1,60 @@
-<div class="github-repo-overview">
+<ul class="project-listing">
   {% assign users = site.data.projects.github %}
   {% for user in users %}
-    <div class="users">
-      <h4>{{ user[0] }}:</h4>
-      {% for repos in user[1] %}
-      {% assign repo = repos[1] %}
-      <article class="post">
-        <div class="post-desc">
-          {% if repo.name %}
-            <h4 class="post-desc-title">{{ repo.name }}</h4>
-          {% else %}
-            <h4 class="post-desc-title">{{ repo.repo }}</h4>
-          {% endif %}
-          <p class="post-desc-preview" id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}"></p>
-          <ul class="button-group even-3 nolisting">
-            <li>
-              <a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/watchers" target="_blank" class="button custombutton"><i class="octicon octicon-eye"></i>
-                <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched"></span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/stargazers" target="_blank" class="button custombutton"><i class="octicon octicon-star"></i>
-                <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared"></span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/network" target="_blank" class="button custombutton"><i class="octicon octicon-repo-forked"></i>
-                <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked"></span>
-              </a>
-            </li>
-          </ul>
-
-          <p>Links:
-            {% if repo.intern %}
-              <a href="{{ repo.intern | predend: site.baseurl }}"><i class="fi-page-multiple space"></i></a>
-            {% endif %}
-            {% if repo.extern %}
-              <a href="{{ repo.extern }}" target="_blank"><i class="fi-web space"></i></a>
-            {% endif %}
-            <a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}" target="_blank"><i class="fi-social-github space"></i></a>
-            <script>
-              $.getJSON("https://api.github.com/repos/{{ user[0] }}/{{ repo.repo }}", function(data) {
-                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}').text(data.description);
-                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched').text(data.subscribers_count);
-                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared').text(data.stargazers_count);
-                $('#{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked').text(data.forks_count);
-                });
-            </script>
-          </p>
-        </div>
-      </article>
-      {% endfor %}
-    {% endfor %}
-  </div>
-</div>
+  <li>
+		<h3>{{ user[0] }}:</h3>
+		<ul class="project-listing">
+		{% for repos in user[1] %}
+		{% assign repo = repos[1] %}
+			<li>
+				{% if repo.name %}
+				<h4>
+					{{ repo.name }}
+				</h4>
+				{% else %}
+				<h4>
+					{{ repo.repo }}
+				</h4>
+				{% endif %}
+				<p id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}"></p>
+				<ul class="menu">
+					<li>
+						<a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/watchers" target="_blank">
+							<i class="octicon octicon-eye"></i> <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched"></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/stargazers" target="_blank">
+							<i class="octicon octicon-star"></i> <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared"></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/network" target="_blank">
+							<i class="octicon octicon-repo-forked"> </i><span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked"></span>
+						</a>
+					</li>
+				</ul>
+				<ul class="menu">
+					<li class="menu-text">
+						Links:
+					</li>
+					{% if repo.intern %}
+					<li>
+						<a href="{{ repo.intern | predend: site.baseurl }}"><i class="fi-page-multiple space"></i></a>
+					</li>
+					{% endif %}
+					{% if repo.extern %}
+					<li>
+						<a href="{{ repo.extern }}" target="_blank"><i class="fi-web space"></i></a>
+					</li>
+					{% endif %}
+					<li>
+						<a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}" target="_blank"><i class="fi-social-github space"></i></a>
+					</li>
+				</ul>
+			</li>
+		{% endfor %}
+		</ul>
+	</li>
+  {% endfor %}
+</ul>
