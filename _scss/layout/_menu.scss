@@ -1,0 +1,40 @@
+#site-logo {
+	height: 1.5rem;
+}
+
+.title.menu {
+	font-size: 1.75rem;
+}
+
+.link.menu a {
+	padding: 1.2rem 1rem 0.7rem;
+}
+
+header {
+	border-bottom: 1px solid $primary-color;
+	padding-bottom: 0.25rem;
+}
+
+.medium-align-right {
+	@include breakpoint(medium up) {
+		justify-content: flex-end;
+	}
+}
+
+.medium-only-align-right {
+	@include breakpoint(medium only) {
+		justify-content: flex-end;
+	}
+}
+
+.large-align-right {
+	@include breakpoint(large up) {
+		justify-content: flex-end;
+	}
+}
+
+.large-only-align-right {
+	@include breakpoint(large only) {
+		justify-content: flex-end;
+	}
+}

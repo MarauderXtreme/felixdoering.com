@@ -1,0 +1,24 @@
+/**
+ * Global non foundation variables
+ */
+$red-dark: #711506;
+$red-light: #B12109;
+
+$playlist-container-width: 70rem;
+$playlist-height: 10rem;
+$playlist-width: 30rem;
+$image-space: 0.4rem;
+$playlist-text-left-space: .9rem;
+$playlist-right-space: $playlist-text-left-space;
+$playlist-text-top-space: 0.5rem;
+$playlist-text-bottom-space: $playlist-text-top-space;
+$playlist-font-size: 1.8rem;
+$playlist-buttons-space-between: 0.1rem;
+$playlist-button-padding: 0.2rem 0.8rem 0.3rem 0.8rem;
+$playlist-border-width: 1px;
+$playlist-border-color: $red-dark;
+$playlist-disabled-color: #555;
+
+$fa-font-path: 'fonts/font-awesome';
+$octicon-path: 'fonts/octicons';
+$fi-path: 'fonts/foundation-icons';

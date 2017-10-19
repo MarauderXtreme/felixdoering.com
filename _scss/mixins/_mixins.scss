@@ -1,0 +1,35 @@
+/* Fade effect as function */
+
+@mixin grad($dark, $light) {
+	background: $dark;
+	background: -webkit-linear-gradient($dark, $light);
+	background: -o-linear-gradient($dark, $light);
+	background: -moz-linear-gradient($dark, $light);
+	background: linear-gradient($dark, $light);
+}
+
+@mixin fade($hcol, $ncol) {
+	color: $ncol;
+	transition: all 1s ease-in-out;
+	&:hover {
+			transition: all 0.5s ease-in-out;
+			color: $hcol;
+	}
+}
+
+@mixin shadow($color, $radius) {
+	-webkit-box-shadow: 0 0 $radius 0 $color;
+	-moz-box-shadow: 0 0 $radius 0 $color;
+	box-shadow: 0 0 $radius 0 $color;
+}
+
+@mixin box-sizing($type) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing: $type;
+	box-sizing: $type;
+}
+
+@mixin button($color) {
+	text-decoration: none;
+	border: $playlist-border-width solid $color;
+}

@@ -1,0 +1,13 @@
+.profile-image {
+	margin-bottom: 2rem;
+  img {
+    border-radius: 50%;
+		@include shadow(#888, 10px);
+  }
+}
+
+.profile-info {
+	@include breakpoint(medium up) {
+		margin-top: 4rem;
+	}
+}

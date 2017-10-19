@@ -1,0 +1,9 @@
+.playlist {
+	margin-bottom: 2.5rem;
+	h2 {
+		margin-top: 1rem;
+		@include breakpoint(medium up) {
+			margin-bottom: 4rem;
+		}
+	}
+}
