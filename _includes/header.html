@@ -1,13 +1,13 @@
 <header class="grid-x grid-padding-x">
 	<nav class="cell grid-x">
-		<ul class="title menu medium-4 cell">
+		<ul class="title menu small-only-align-center medium-4 cell">
 			<li>
 				<a href="{{ '/' | prepend: site.baseurl }}">
 					<img id="site-logo" src="/images/logo.svg" alt="Site Logo" /> <span>{{ site.title }}</span>
 				</a>
 			</li>
 		</ul>
-		<ul class="vertical medium-horizontal link menu medium-align-right medium-8 cell">
+		<ul class="link menu small-only-align-center medium-align-right medium-8 cell">
 			{% assign cururl = page.url %}
 			{% if cururl == '/' | prepend: site.baseurl %}
 				<li class="is-active">

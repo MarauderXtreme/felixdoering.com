@@ -15,6 +15,18 @@ header {
 	padding-bottom: 0.25rem;
 }
 
+.small-align-center {
+	@include breakpoint(small up) {
+		justify-content: center;
+	}
+}
+
+.small-only-align-center {
+	@include breakpoint(small only) {
+		justify-content: center;
+	}
+}
+
 .medium-align-right {
 	@include breakpoint(medium up) {
 		justify-content: flex-end;
