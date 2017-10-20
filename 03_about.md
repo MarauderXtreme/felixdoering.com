@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Me
-permalink: /about
+permalink: /about/
 ---
 
 My name is Felix Döring and I am an apprentice at 3m5. Media GmbH.

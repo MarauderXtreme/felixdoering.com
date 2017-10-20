@@ -10,6 +10,35 @@
 		{% include stylesheet.html stylesheet=sheet %}
 	{% endfor %}
 
+	{% for group in site.data.icons.groups %}
+		{% assign path = group.path %}
+		{% capture rel %}
+			{% if group.rel %}
+				{{ group.rel }}
+			{% else %}
+				icon
+			{% endif %}
+		{% endcapture %}
+		{% for size in group.sizes %}
+			{% if group.type == "ms" %}
+				<meta name="msapplication-TileImage" content="{{ path | append: size | append: ".png" | prepend: site.baseurl }}" />
+			{% else %}
+				<link rel="{{ rel }}" type="image/png" href="{{ path | append: size | append: ".png" | prepend: site.baseurl }}" sizes="{{ size }}" />
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+
+	{% assign mask-icon = site.data.icons.mask-icon %}
+	<link rel="{{ mask-icon.rel }}" href="{{ mask-icon.path | prepend: site.baseurl }}" color="{{ mask-icon.color }}" />
+
+	<link rel="manifest" href="{{ site.data.icons.android-manifest | prepend: site.baseurl }}" />
+
+	<meta name="msapplication-TileColor" content="{{ site.data.icons.ms-tilecolor }}" />
+	<meta name="msapplication-config" content="{{ site.data.icons.ms-config }}" />
+
+	<meta name="theme-color" content="{{ site.data.icons.theme-color }}" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ "images/icons/favicon.ico" | prepend: site.baseurl }}" />
+
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
 
