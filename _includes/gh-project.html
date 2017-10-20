@@ -1,9 +1,9 @@
-<ul class="project-listing">
+<ul class="project-listing user">
   {% assign users = site.data.projects.github %}
   {% for user in users %}
   <li>
 		<h3>{{ user[0] }}:</h3>
-		<ul class="project-listing">
+		<ul class="project-listing project">
 		{% for repos in user[1] %}
 		{% assign repo = repos[1] %}
 			<li>
@@ -20,17 +20,17 @@
 				<ul class="menu">
 					<li>
 						<a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/watchers" target="_blank">
-							<i class="octicon octicon-eye"></i> <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched"></span>
+							<i class="octicon space">{% include octicons/eye.html %}</i> <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-watched"></span>
 						</a>
 					</li>
 					<li>
 						<a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/stargazers" target="_blank">
-							<i class="octicon octicon-star"></i> <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared"></span>
+							<i class="octicon space">{% include octicons/star.html %}</i> <span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-stared"></span>
 						</a>
 					</li>
 					<li>
 						<a href="https://github.com/{{ user[0] }}/{{ repo.repo }}/network" target="_blank">
-							<i class="octicon octicon-repo-forked"> </i><span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked"></span>
+							<i class="octicon space">{% include octicons/repo-forked.html %}</i><span id="{{ user[0] }}-{{ repo.repo | replace: '.', '' }}-forked"></span>
 						</a>
 					</li>
 				</ul>
@@ -40,16 +40,16 @@
 					</li>
 					{% if repo.intern %}
 					<li>
-						<a href="{{ repo.intern | predend: site.baseurl }}"><i class="fi-page-multiple space"></i></a>
+						<a href="{{ repo.intern | predend: site.baseurl }}"><i class="fi-page-multiple"></i></a>
 					</li>
 					{% endif %}
 					{% if repo.extern %}
 					<li>
-						<a href="{{ repo.extern }}" target="_blank"><i class="fi-web space"></i></a>
+						<a href="{{ repo.extern }}" target="_blank"><i class="fi-web"></i></a>
 					</li>
 					{% endif %}
 					<li>
-						<a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}" target="_blank"><i class="fi-social-github space"></i></a>
+						<a href="{{ repo.repo | prepend: '/' | prepend: user[0] | prepend: 'https://github.com/' }}" target="_blank"><i class="fi-social-github"></i></a>
 					</li>
 				</ul>
 			</li>

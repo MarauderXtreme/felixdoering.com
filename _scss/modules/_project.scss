@@ -2,34 +2,70 @@
 	display: block;
 	margin-top: 0.25rem;
 }
+
 .colored {
 	border-color: $primary-color;
 }
+
 .dev {
 	color: orange;
 }
+
 .released {
 	color: green;
 }
+
 .canceled {
 	color: $secondary-color;
 }
+
 .users {
 	padding-left: 1rem;
 }
+
 .line {
 	margin: 0 0.5rem 0 ,5rem;
 }
+
 .space {
-  	  margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
+
+.octicon {
+	vertical-align: middle;
+}
+
+a .octicon g {
+	fill: $primary-color;
+	transition: fill 1s ease-in-out;
+}
+
+a:hover .octicon g {
+	transition: fill 0.5s ease-in-out;
+	fill: $secondary-color;
+
+}
+
 .project-listing {
 	list-style-type: none;
 	h3 {
 		margin-top: 2rem;
 	}
 	.project-listing > li {
-		border-bottom: 1px solid transparentize($primary-color, 0.7);
 		padding: 2rem 0;
+	}
+}
+
+.project-listing.user > li:first-child {
+	border-bottom: 1px solid transparentize($primary-color, 0.7);
+}
+
+.project-listing.project > li {
+	border-bottom: 1px solid transparentize($primary-color, 0.7);
+	&:last-child {
+		border-bottom: none;
+	}
+	.menu-text {
+		padding-right: 0;
 	}
 }
