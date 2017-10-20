@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Playlists
-permalink: /playlists
+permalink: /playlists/
 ---
 
 From time to time I am putting together some titles into playlists. It helps me to connect themes with different feelings.  

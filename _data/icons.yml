@@ -1,0 +1,52 @@
+groups:
+  -
+    type: android
+    path: /images/icons/android-chrome-
+    sizes:
+      - 36x36
+      - 48x48
+      - 72x72
+      - 96x96
+      - 144x144
+      - 192x192
+      - 256x256
+      - 384x384
+      - 512x512
+  -
+    type: apple
+    rel: apple-touch-icon
+    path: /images/icons/apple-touch-icon-
+    sizes:
+      - 57x57
+      - 60x60
+      - 72x72
+      - 76x76
+      - 114x114
+      - 120x120
+      - 144x144
+      - 152x152
+      - 180x180
+  -
+    type: favicon
+    rel: shortcut icon
+    path: /images/icons/favicon-
+    sizes:
+      - 16x16
+      - 32x32
+  -
+    type: ms
+    path: /images/icons/mstile-
+    sizes:
+      - 70x70
+      - 144x144
+      - 150x150
+      - 310x150
+      - 310x310
+mask-icon:
+  rel: mask-icon
+  color: "#711506"
+  path: /images/icons/safari-pinned-tab.svg
+android-manifest: /images/icons/manifest.json
+ms-tilecolor: "#711506"
+ms-config: /images/icons/browserconfig.xml
+theme-color: "#711506"
