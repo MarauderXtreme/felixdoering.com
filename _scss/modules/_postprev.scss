@@ -9,6 +9,9 @@
 }
 
 .calendar-sheet {
+	@include breakpoint(small only) {
+		margin: 0 auto;
+	}
 	position: relative;
   top: 50%;
 	transform: translateY(-50%);
