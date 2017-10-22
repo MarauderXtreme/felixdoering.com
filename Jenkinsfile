@@ -14,11 +14,12 @@ bundle exec jekyll build'''
     }
     stage('Deploy') {
       steps {
-        sh '''withCredentials([string(credentialsId: \'uberspace_fd\', variable: \'SERVER\'),]) {
-
-rsync -avz --delete ./_site/* $SERVER
-
-}'''
+        withCredentials([string(credentialsId: 'uberspace_fd', variable: 'SERVER')]) {
+          sh '''
+            set +x
+            rsync -avz --delete ./_site/* $SERVER
+            '''
+          }
         }
       }
     }
