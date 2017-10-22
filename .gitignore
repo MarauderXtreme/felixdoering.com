@@ -2,3 +2,8 @@ _site
 .sass-cache
 .jekyll-metadata
 bower_components
+
+# Stuff for local bundle install
+vendor
+.bundle
+Gemfile.lock
