@@ -3,6 +3,8 @@ default:
     # following scripts are included in <head>
     -
       src: /js/vendor/modernizr.min.js
+    -
+      src: /js/piwik.js
 
   post:
     # following scripts are included before </body>
