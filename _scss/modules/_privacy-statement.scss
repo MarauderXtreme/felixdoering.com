@@ -1,0 +1,21 @@
+#privacy-statement{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: $white;
+    border-top: 1px solid $secondary-color;
+    padding-top: 1rem;
+    box-shadow: 0 0 3px 0 $secondary-color;
+    .container {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+    .privacy-notice {
+        line-height: 2em;
+    }
+}
+
+.no-js #privacy-statement {
+    display: none;
+}

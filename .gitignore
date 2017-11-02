@@ -5,5 +5,6 @@ bower_components
 
 # Stuff for local bundle install
 vendor
+!js/vendor
 .bundle
 Gemfile.lock

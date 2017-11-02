@@ -24,9 +24,7 @@ Die durch den Cookie erzeugten Informationen über die Benutzung dieser Website 
 
 Wenn Sie mit der Speicherung und Nutzung Ihrer Daten nicht einverstanden sind, können Sie die Speicherung und Nutzung hier deaktivieren. In diesem Fall wird in Ihrem Browser ein Opt-Out-Cookie hinterlegt der verhindert, dass Piwik Nutzungsdaten speichert. Wenn Sie Ihre Cookies löschen hat dies zur Folge, dass auch das Piwik Opt-Out-Cookie gelöscht wird. Das Opt-Out muss bei einem erneuten Besuch unserer Seite wieder aktiviert werden.
 
-<div class="responsive-embed">
-    <iframe style="border: 0;" height="120px" width="1200px" src="https://server.felixdoering.com/analytics/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
-</div>
+{% include piwik.html %}
 
 ## SSL-Verschlüsselung
 Diese Seite nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
@@ -36,4 +34,4 @@ Wenn die SSL Verschlüsselung aktiviert ist, können die Daten, die Sie an uns �
 ## Widerspruch Werbe-Mails
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
 
-Quelle: <a href="https://www.e-recht24.de/muster-datenschutzerklaerung.html">https://www.e-recht24.de/muster-datenschutzerklaerung.html</a>
+Quelle: [e-recht24.de](https://www.e-recht24.de/muster-datenschutzerklaerung.html)
