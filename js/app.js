@@ -2,6 +2,56 @@
 # Front Matter to activate Jekyll processing
 ---
 
+var piwikIsTracked = true;
+
+function updateText() {
+	if (piwikIsTracked)
+		jQuery('#am-i-tracked').hide();
+	else
+		jQuery('#am-i-tracked').show();
+}
+
+function piwikTrack() {
+	jQuery.ajax({
+		url: '//server.felixdoering.com/analytics/index.php?module=API&method=AjaxOptOut.doTrack&format=json',
+		jsonp: 'callback',
+		dataType: 'jsonp',
+		success: function (d) {
+			piwikIsTracked = true;
+			updateText();
+		}
+	})
+}
+
+function piwikUntrack() {
+	jQuery.ajax({
+		url: '//server.felixdoering.com/analytics/index.php?module=API&method=AjaxOptOut.doIgnore&format=json',
+		jsonp: 'callback',
+		dataType: 'jsonp',
+		success: function (d) {
+			piwikIsTracked = false;
+			updateText();
+		}
+	})
+}
+
+function piwikTracking() {
+	jQuery.ajax({
+		url: '//server.felixdoering.com/analytics/index.php?module=API&method=AjaxOptOut.isTracked&format=json',
+		jsonp: 'callback',
+		dataType: 'jsonp',
+		success: function (d) {
+			piwikIsTracked = d.value;
+			jQuery('#piwik-opt-out').prop('checked', piwikIsTracked);
+			updateText();
+		},
+		error: function (d) {
+			piwikIsTracked = false;
+			updateText();
+		}
+	})
+}
+
 jQuery(document).ready(function(){
 
 	jQuery(document).foundation();
@@ -39,5 +89,23 @@ jQuery(document).ready(function(){
 		jQuery.ajaxSetup({async:true});
 
 	}
+
+	piwikTracking();
+	
+	jQuery('#piwik-opt-out').change(function () {
+		var that = jQuery(this);
+		if (!that.is(':checked'))
+			piwikUntrack();
+		if (that.is(':checked'))
+			piwikTrack();
+	});
+
+	if (localStorage.getItem('privacyStatementAck'))
+		jQuery('#privacy-statement').hide();
+		
+	jQuery('#ack').click(function(){
+		jQuery('#privacy-statement').hide();
+		localStorage.setItem('privacyStatementAck', 'true');
+	});
 
 });

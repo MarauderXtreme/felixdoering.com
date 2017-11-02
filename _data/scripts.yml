@@ -3,7 +3,6 @@ default:
     # following scripts are included in <head>
     -
       src: /js/vendor/modernizr.min.js
-
   post:
     # following scripts are included before </body>
     -
@@ -12,5 +11,7 @@ default:
       src: /js/vendor/what-input.min.js
     -
       src: /js/vendor/foundation.min.js
+    -
+      src: /js/vendor/piwik.min.js
     -
       src: /js/app.js
