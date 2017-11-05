@@ -102,9 +102,6 @@ jQuery(document).ready(function(){
 
 	if (!localStorage.getItem('privacyStatementAck'))
 		jQuery('#privacy-statement').show();
-
-	if (localStorage.getItem('privacyStatementAck'))
-		jQuery('#privacy-statement').hide();
 		
 	jQuery('#ack').click(function(){
 		jQuery('#privacy-statement').hide();
