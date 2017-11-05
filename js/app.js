@@ -100,6 +100,9 @@ jQuery(document).ready(function(){
 			piwikTrack();
 	});
 
+	if (!localStorage.getItem('privacyStatementAck'))
+		jQuery('#privacy-statement').show();
+
 	if (localStorage.getItem('privacyStatementAck'))
 		jQuery('#privacy-statement').hide();
 		

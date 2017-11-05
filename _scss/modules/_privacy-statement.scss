@@ -1,4 +1,5 @@
 #privacy-statement{
+    display: none;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -14,8 +15,4 @@
     .privacy-notice {
         line-height: 2em;
     }
-}
-
-.no-js #privacy-statement {
-    display: none;
 }
