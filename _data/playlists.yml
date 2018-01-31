@@ -766,3 +766,83 @@
       "25":
         title: "Forever Dead"
         artist: "Torture Killer"
+"Punch to wake up":
+    image: "punch_to_wake_up"
+    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/082RbHp6tfy4WIB8dCvRbO"
+    amusic: "https://itunes.apple.com/de/playlist/punch-to-wake-up/pl.u-xrvdCpKJag7"
+    tracks:
+      "01":
+        title: "Come Together"
+        artist: "Gary Clark Jr. & Junkie XL"
+      "02":
+        title: "One Night Only"
+        artist: "The Struts"
+      "03":
+        title: "Tin Pan Boy"
+        artist: "YUNGBLUD"
+      "04":
+        title: "Rollin' (Air Raid Vehicle)"
+        artist: "Limp Bizkit"
+      "05":
+        title: "The World Is on Fire"
+        artist: "Council"
+      "06":
+        title: "I Can't Quit"
+        artist: "The Vaccines"
+      "07":
+        title: "Daydream"
+        artist: "The XCERTS"
+      "08":
+        title: "Smooth Criminal"
+        artist: "Alien Ant Farm"
+      "09":
+        title: "Monkey Wrench"
+        artist: "Foo Fighters"
+      "10":
+        title: "Lemon to a Knife Fight"
+        artist: "The Wombats"
+      "11":
+        title: "Always Ascending (Edit)"
+        artist: "Franz Ferdinand"
+      "12":
+        title: "Safari Song"
+        artist: "Greta Van Fleet"
+      "13":
+        title: "Last Resort"
+        artist: "Papa Roach"
+      "14":
+        title: "Self Esteem"
+        artist: "The Offspring"
+      "15":
+        title: "Holy Mountain"
+        artist: "Noel Gallagher's High Flying Birds"
+      "16":
+        title: "Got the Life"
+        artist: "Korn"
+      "17":
+        title: "Walk on Water"
+        artist: "Thirty Seconds to Mars"
+      "18":
+        title: "One Step Closer"
+        artist: "LINKIN PARK"
+      "19":
+        title: "The Way You Used to Do"
+        artist: "Queens of the Stone Age"
+      "20":
+        title: "Chop Suey!"
+        artist: "System Of A Down"
+      "21":
+        title: "Killing In the Name"
+        artist: "Rage Against the Machine"
+      "22":
+        title: "Illuminant"
+        artist: "Quicksand"
+      "23":
+        title: "Supermassive Black Hole"
+        artist: "Muse"
+      "24":
+        title: "I Write Sins Not Tragedies"
+        artist: "Panic! At the Disco"
+      "25":
+        title: "Never Enough"
+        artist: "Five Finger Death Punch"
