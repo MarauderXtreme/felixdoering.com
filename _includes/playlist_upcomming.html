@@ -1,0 +1,4 @@
+{% assign upcomming = site.data.playlists_upcomming %}
+{% for info in upcomming %}
+{% if forloop.index == 1  %}<p>You are curious about upcomming playlist? Let me disclose some of the titles:</p>{% endif %}{{ info[0] }}{% unless forloop.rindex == 1 %}, {% endunless %}
+{% endfor %}
