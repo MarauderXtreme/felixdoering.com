@@ -12,3 +12,5 @@ Have a look at our cooperative project <a href="https://github.com/MarauderXtrem
 For more information about the lists themself click onto the images. 
 
 {% include playlist.html %}
+
+{% include playlist_upcomming.html %}
