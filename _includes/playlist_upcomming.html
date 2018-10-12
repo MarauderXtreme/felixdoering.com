@@ -1,4 +1,11 @@
+<div class="grid-x grid-padding-x small-up-1 medium-up-2">
 {% assign upcomming = site.data.playlists_upcomming %}
+<p>You are curious about upcomming playlist? Let me disclose some of the titles:</p><br>
+<ul>
 {% for info in upcomming %}
-{% if forloop.index == 1  %}<p>You are curious about upcomming playlist? Let me disclose some of the titles:</p>{% endif %}{{ info[0] }}{% unless forloop.rindex == 1 %}, {% endunless %}
+{% if forloop.index == 1  %}
+{% endif %}
+<li>{{ info[0] }}</li>
 {% endfor %}
+</ul>
+</div>
