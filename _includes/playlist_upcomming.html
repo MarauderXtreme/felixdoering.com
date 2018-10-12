@@ -1,11 +1,9 @@
-<div class="grid-x grid-padding-x small-up-1 medium-up-2">
-{% assign upcomming = site.data.playlists_upcomming %}
-<p>You are curious about upcomming playlist? Let me disclose some of the titles:</p><br>
-<ul>
-{% for info in upcomming %}
-{% if forloop.index == 1  %}
-{% endif %}
-<li>{{ info[0] }}</li>
-{% endfor %}
-</ul>
+<div class="upcomming-playlist-container grid-x grid-padding-x">
+	{% assign upcomming = site.data.playlists_upcomming %}
+	<p class="cell">You are curious about upcomming playlist? Let me disclose some of the titles:</p>
+	<ul class="cell">
+		{% for info in upcomming %}
+		<li>{{ info[0] }}</li>
+		{% endfor %}
+	</ul>
 </div>
