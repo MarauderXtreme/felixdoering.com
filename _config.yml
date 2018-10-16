@@ -18,7 +18,7 @@ kramdown:
 
 sass:
   sass_dir: _scss
-  style: :compressed
+  style: compressed
 
 compress_html:
   clippings: []
@@ -61,4 +61,4 @@ collections:
 
 exclude: [vendor,Gemfile*,bower.json,bower_components]
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate,jekyll-sitemap]
