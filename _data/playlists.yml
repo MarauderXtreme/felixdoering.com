@@ -1,7 +1,7 @@
 "In A Mood":
   image: "in_a_mood"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/1RDk094p5ZIOuwNUs5Godg"
-  amusic: "https://itunes.apple.com/de/playlist/in-a-mood/idpl.e718647ff6f7468082a6fb60fe722a17"
+  spotify: "https://open.spotify.com/playlist/1RDk094p5ZIOuwNUs5Godg"
+  amusic: "https://itunes.apple.com/playlist/pl.e718647ff6f7468082a6fb60fe722a17"
   tracks:
     "01":
       title: "My Body is a Cage"
@@ -53,8 +53,8 @@
       artist: "Thin Lizzy"
 "Swing that Jazz":
   image: "swing_that_jazz"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/78XasuvHLlinFOMyKkqgCC"
-  amusic: "https://itunes.apple.com/de/playlist/swing-that-jazz/idpl.97765039383d4f3f8ec2841a9ccd66cd"
+  spotify: "https://open.spotify.com/playlist/78XasuvHLlinFOMyKkqgCC"
+  amusic: "https://itunes.apple.com/playlist/pl.97765039383d4f3f8ec2841a9ccd66cd"
   tracks:
     "01":
       title: "It Don't Mean a Thing (If Ain't Got That Swing)"
@@ -97,8 +97,8 @@
       artist: "Louis Armstrong & His All Stars"
 "Game On":
   image: "game_on"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/41UHqsnuxxGad2k3HDH8ON"
-  amusic: "https://itunes.apple.com/de/playlist/game-on/idpl.67ddd4c52ac24c06b6f88b45e6542b98"
+  spotify: "https://open.spotify.com/playlist/41UHqsnuxxGad2k3HDH8ON"
+  amusic: "https://itunes.apple.com/playlist/pl.67ddd4c52ac24c06b6f88b45e6542b98"
   tracks:
     "01":
       title: "Heart of Courage"
@@ -177,8 +177,8 @@
       artist: "Aperture Science Psychoacoustic Laboratories"
 "Electro Swing":
   image: "elektro_swing"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/1s6l7wyrhN0DBakENBY8Ez"
-  amusic: "https://itunes.apple.com/de/playlist/elektro-swing/idpl.304f12f8a7b84315aceac81b3a7f8eb3"
+  spotify: "https://open.spotify.com/playlist/1s6l7wyrhN0DBakENBY8Ez"
+  amusic: "https://itunes.apple.com/playlist/pl.304f12f8a7b84315aceac81b3a7f8eb3"
   tracks:
     "01":
       title: "My Sound"
@@ -209,8 +209,8 @@
       artist: "Lionel Hampton"
 "The Randome":
   image: "the_randome"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/4ZnzFIjbqudvBOVL2uX7vu"
-  amusic: "https://itunes.apple.com/de/playlist/the-randome/idpl.828bd8b5afed420dad37106b28dc5533"
+  spotify: "https://open.spotify.com/playlist/4ZnzFIjbqudvBOVL2uX7vu"
+  amusic: "https://itunes.apple.com/playlist/pl.828bd8b5afed420dad37106b28dc5533"
   tracks:
     "01":
       title: "The Modjo Radio Gang (Radio Version)"
@@ -256,8 +256,8 @@
       artist: "Gotye"
 "In Your Head":
   image: "in_your_head"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/25PQSaAQzI72xWmFMohcHz"
-  amusic: "https://itunes.apple.com/de/playlist/in-your-head/idpl.3a2f04ef341b4c63ae7531dd559b6765"
+  spotify: "https://open.spotify.com/playlist/25PQSaAQzI72xWmFMohcHz"
+  amusic: "https://itunes.apple.com/playlist/pl.3a2f04ef341b4c63ae7531dd559b6765"
   tracks:
     "01":
       title: "Don't Break My Heart Again (2003 Remaster)"
@@ -327,8 +327,8 @@
       artist: "Patti Smith"
 "Tears":
   image: "tears"
-  spotify: "https://open.spotify.com/user/marauderxtreme/playlist/7DlsuQ0F9NJy3HeSqYUEMK"
-  amusic: "https://itunes.apple.com/de/playlist/tears/idpl.50fee040e9774a99902eea7461507fbd"
+  spotify: "https://open.spotify.com/playlist/7DlsuQ0F9NJy3HeSqYUEMK"
+  amusic: "https://itunes.apple.com/playlist/pl.50fee040e9774a99902eea7461507fbd"
   tracks:
     "01":
       title: "When the Children Cry"
@@ -368,8 +368,8 @@
       artist: "Led Zeppelin"
 "Heavy and Rusty":
     image: "heavy_and_rusty"
-    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/3jt5KUCvZBF4IOdFrADw8G"
-    amusic: "https://itunes.apple.com/de/playlist/heavy-and-rusty/idpl.8aac9d6f5ecc44ccb1287bbb328e9c88"
+    spotify: "https://open.spotify.com/playlist/3jt5KUCvZBF4IOdFrADw8G"
+    amusic: "https://itunes.apple.com/playlist/pl.8aac9d6f5ecc44ccb1287bbb328e9c88"
     tracks:
       "01":
         title: "Panic In the Pentagram"
@@ -448,8 +448,8 @@
         artist: "Dream Theater"
 "Retro is calling":
     image: "retro_is_calling"
-    amusic: "https://itunes.apple.com/de/playlist/retro-is-calling/idpl.52f6874cf76b473a825c58c8ae05adaf"
-    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/6hMwBGSzH9dDuAetZd6TP9"
+    amusic: "https://itunes.apple.com/playlist/pl.52f6874cf76b473a825c58c8ae05adaf"
+    spotify: "https://open.spotify.com/playlist/6hMwBGSzH9dDuAetZd6TP9"
     tracks:
       "01":
         title: "Der Kommissar"
@@ -528,8 +528,8 @@
         artist: "Bruce Springsteen"
 "Hell of a Ride":
     image: "hell_of_a_ride"
-    amusic: "https://itunes.apple.com/de/playlist/hell-of-a-ride/idpl.4189c1e24f3f49daa4f48d46d3ce56c9"
-    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/0kUkCdAJDMMknF5LSox0ug"
+    amusic: "https://itunes.apple.com/playlist/pl.4189c1e24f3f49daa4f48d46d3ce56c9"
+    spotify: "https://open.spotify.com/playlist/0kUkCdAJDMMknF5LSox0ug"
     tracks:
       "01":
         title: "Born to Run"
@@ -608,8 +608,8 @@
         artist: "Place Vendome"
 "Rock of the Past":
     image: "rock_of_the_past"
-    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/48J8o16iJhVsZLTYwAVjV0"
-    amusic: "https://itunes.apple.com/de/playlist/rock-of-the-past/idpl.beeab930e7754da4913d08e89ad3886f"
+    spotify: "https://open.spotify.com/playlist/48J8o16iJhVsZLTYwAVjV0"
+    amusic: "https://itunes.apple.com/playlist/pl.beeab930e7754da4913d08e89ad3886f"
     tracks:
       "01":
         title: "Rape Me"
@@ -688,8 +688,8 @@
         artist: "Ramones"
 "Metal Worker":
     image: "metal_worker"
-    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/2ddTk8mWx4dbxwGZ3LzU2g"
-    amusic: "https://itunes.apple.com/de/playlist/metal-worker/pl.u-kx5lsWaJKA3"
+    spotify: "https://open.spotify.com/playlist/2ddTk8mWx4dbxwGZ3LzU2g"
+    amusic: "https://itunes.apple.com/playlist/pl.u-kx5lsWaJKA3"
     tracks:
       "01":
         title: "Black Knight Satellite"
@@ -768,8 +768,8 @@
         artist: "Torture Killer"
 "Punch to wake up":
     image: "punch_to_wake_up"
-    spotify: "https://open.spotify.com/user/marauderxtreme/playlist/082RbHp6tfy4WIB8dCvRbO"
-    amusic: "https://itunes.apple.com/de/playlist/punch-to-wake-up/pl.u-xrvdCpKJag7"
+    spotify: "https://open.spotify.com/playlist/082RbHp6tfy4WIB8dCvRbO"
+    amusic: "https://itunes.apple.com/playlist/pl.u-xrvdCpKJag7"
     tracks:
       "01":
         title: "Come Together"
@@ -846,3 +846,83 @@
       "25":
         title: "Never Enough"
         artist: "Five Finger Death Punch"
+"Iron Heart Still Beating":
+    image: "iron_heart_still_beating"
+    spotify: "https://open.spotify.com/playlist/1oRyLNLnRtsm0hAPtfWwIP"
+    amusic: "https://itunes.apple.com/playlist/pl.u-WBNZtvpeKLk"
+    tracks:
+      "01":
+        title: "Game of Thrones Main Theme (Metalstep Version)"
+        artist: "Distortion Flames"
+      "02":
+        title: "Till We Die"
+        artist: "Kayzo & Sullivan King"
+      "03":
+        title: "Throwin' Elbows (feat. Space Laces)"
+        artist: "Excision"
+      "04":
+        title: "End of an Empire (Neurojax Remix)"
+        artist: "Celldweller"
+      "05":
+        title: "Narcissistic Cannibal (feat. Skrillex & Kill the Noise)"
+        artist: "Korn"
+      "06":
+        title: "King Is Back (feat. Sullivan King, Big Ali) [Metal Remix]"
+        artist: "Snails"
+      "07":
+        title: "Like a Bitch (Kill the Noise Remix)"
+        artist: "Zomboy"
+      "08":
+        title: "Party In the Graveyard"
+        artist: "Ghost Town"
+      "09":
+        title: "Rise of the Robots (feat. Messinian)"
+        artist: "Virtual Riot"
+      "10":
+        title: "Bfg Division"
+        artist: "Mick Gordon"
+      "11":
+        title: "Walk in the Fire"
+        artist: "Dirtyphonics"
+      "12":
+        title: "Elektra (Remix)"
+        artist: "SBCR vs. Refused"
+      "13":
+        title: "A Lesson Never Learned (Celldweller Remix)"
+        artist: "Asking Alexandria"
+      "14":
+        title: "Trojans"
+        artist: "The Algorithm"
+      "15":
+        title: "Slaughterhouse"
+        artist: "KillSonik"
+      "16":
+        title: "Rage (feat. Sullivan King)"
+        artist: "Bear Grillz"
+      "17":
+        title: "The Ritual (feat. Dack Janiels)"
+        artist: "Figure"
+      "18":
+        title: "Invaders Must Die"
+        artist: "The Prodigy"
+      "19":
+        title: "Ora Pro Nobis (Zardonic Remix)"
+        artist: "New Project"
+      "20":
+        title: "Champagne Showers"
+        artist: "Skip The Foreplay"
+      "21":
+        title: "Metalotronic"
+        artist: "Kloudization"
+      "22":
+        title: "Heavy Grind"
+        artist: "The Enigma TNG"
+      "23":
+        title: "Mosh Pit"
+        artist: "Downlink"
+      "24":
+        title: "Industrial Machine (Metalstep Mix)"
+        artist: "Blue Claw Philharmonic"
+      "25":
+        title: "Game Over"
+        artist: "Lookas & Crankdat"
