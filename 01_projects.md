@@ -4,10 +4,10 @@ permalink: /projects/
 layout: projectoverview
 ---
 
-My projects are based on two things, photography and programming.
+My projects are based on two passions, photography and programming.
 
 ## momendlos
-[momendlos](https://momendlos.de) is an Photoblog.
+[momendlos](https://momendlos.de) is a photoblog.
 Do not hesitate to have a look at it!
 
 ## GitHub
