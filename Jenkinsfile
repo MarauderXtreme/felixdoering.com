@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        sh 'bundle install --path vendor/bundle'
+        sh '/usr/local/rvm/gems/ruby-2.6.0/bin/bundle install --path vendor/bundle'
       }
     }
     stage('Build') {
       steps {
-        sh '''bundle exec jekyll clean
-bundle exec jekyll build'''
+        sh '''/usr/local/rvm/gems/ruby-2.6.0/bin/bundle exec jekyll clean
+/usr/local/rvm/gems/ruby-2.6.0/bin/bundle exec jekyll build'''
       }
     }
     stage('Deploy') {
