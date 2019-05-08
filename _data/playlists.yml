@@ -1,7 +1,7 @@
 "In A Mood":
   image: "in_a_mood"
   spotify: "https://open.spotify.com/playlist/1RDk094p5ZIOuwNUs5Godg"
-  amusic: "https://itunes.apple.com/playlist/pl.e718647ff6f7468082a6fb60fe722a17"
+  amusic: "https://itunes.apple.com/de/playlist/pl.e718647ff6f7468082a6fb60fe722a17"
   tracks:
     "01":
       title: "My Body is a Cage"
@@ -54,7 +54,7 @@
 "Swing that Jazz":
   image: "swing_that_jazz"
   spotify: "https://open.spotify.com/playlist/78XasuvHLlinFOMyKkqgCC"
-  amusic: "https://itunes.apple.com/playlist/pl.97765039383d4f3f8ec2841a9ccd66cd"
+  amusic: "https://itunes.apple.com/de/playlist/pl.97765039383d4f3f8ec2841a9ccd66cd"
   tracks:
     "01":
       title: "It Don't Mean a Thing (If Ain't Got That Swing)"
@@ -98,7 +98,7 @@
 "Game On":
   image: "game_on"
   spotify: "https://open.spotify.com/playlist/41UHqsnuxxGad2k3HDH8ON"
-  amusic: "https://itunes.apple.com/playlist/pl.67ddd4c52ac24c06b6f88b45e6542b98"
+  amusic: "https://itunes.apple.com/de/playlist/pl.67ddd4c52ac24c06b6f88b45e6542b98"
   tracks:
     "01":
       title: "Heart of Courage"
@@ -178,7 +178,7 @@
 "Electro Swing":
   image: "elektro_swing"
   spotify: "https://open.spotify.com/playlist/1s6l7wyrhN0DBakENBY8Ez"
-  amusic: "https://itunes.apple.com/playlist/pl.304f12f8a7b84315aceac81b3a7f8eb3"
+  amusic: "https://itunes.apple.com/de/playlist/pl.304f12f8a7b84315aceac81b3a7f8eb3"
   tracks:
     "01":
       title: "My Sound"
@@ -210,7 +210,7 @@
 "The Randome":
   image: "the_randome"
   spotify: "https://open.spotify.com/playlist/4ZnzFIjbqudvBOVL2uX7vu"
-  amusic: "https://itunes.apple.com/playlist/pl.828bd8b5afed420dad37106b28dc5533"
+  amusic: "https://itunes.apple.com/de/playlist/pl.828bd8b5afed420dad37106b28dc5533"
   tracks:
     "01":
       title: "The Modjo Radio Gang (Radio Version)"
@@ -257,7 +257,7 @@
 "In Your Head":
   image: "in_your_head"
   spotify: "https://open.spotify.com/playlist/25PQSaAQzI72xWmFMohcHz"
-  amusic: "https://itunes.apple.com/playlist/pl.3a2f04ef341b4c63ae7531dd559b6765"
+  amusic: "https://itunes.apple.com/de/playlist/pl.3a2f04ef341b4c63ae7531dd559b6765"
   tracks:
     "01":
       title: "Don't Break My Heart Again (2003 Remaster)"
@@ -328,7 +328,7 @@
 "Tears":
   image: "tears"
   spotify: "https://open.spotify.com/playlist/7DlsuQ0F9NJy3HeSqYUEMK"
-  amusic: "https://itunes.apple.com/playlist/pl.50fee040e9774a99902eea7461507fbd"
+  amusic: "https://itunes.apple.com/de/playlist/pl.50fee040e9774a99902eea7461507fbd"
   tracks:
     "01":
       title: "When the Children Cry"
@@ -369,7 +369,7 @@
 "Heavy and Rusty":
     image: "heavy_and_rusty"
     spotify: "https://open.spotify.com/playlist/3jt5KUCvZBF4IOdFrADw8G"
-    amusic: "https://itunes.apple.com/playlist/pl.8aac9d6f5ecc44ccb1287bbb328e9c88"
+    amusic: "https://itunes.apple.com/de/playlist/pl.8aac9d6f5ecc44ccb1287bbb328e9c88"
     tracks:
       "01":
         title: "Panic In the Pentagram"
@@ -449,7 +449,7 @@
 "Retro is calling":
     image: "retro_is_calling"
     amusic: "https://itunes.apple.com/playlist/pl.52f6874cf76b473a825c58c8ae05adaf"
-    spotify: "https://open.spotify.com/playlist/6hMwBGSzH9dDuAetZd6TP9"
+    spotify: "https://open.spotify.com/de/playlist/6hMwBGSzH9dDuAetZd6TP9"
     tracks:
       "01":
         title: "Der Kommissar"
@@ -529,7 +529,7 @@
 "Hell of a Ride":
     image: "hell_of_a_ride"
     amusic: "https://itunes.apple.com/playlist/pl.4189c1e24f3f49daa4f48d46d3ce56c9"
-    spotify: "https://open.spotify.com/playlist/0kUkCdAJDMMknF5LSox0ug"
+    spotify: "https://open.spotify.com/de/playlist/0kUkCdAJDMMknF5LSox0ug"
     tracks:
       "01":
         title: "Born to Run"
@@ -609,7 +609,7 @@
 "Rock of the Past":
     image: "rock_of_the_past"
     spotify: "https://open.spotify.com/playlist/48J8o16iJhVsZLTYwAVjV0"
-    amusic: "https://itunes.apple.com/playlist/pl.beeab930e7754da4913d08e89ad3886f"
+    amusic: "https://itunes.apple.com/de/playlist/pl.beeab930e7754da4913d08e89ad3886f"
     tracks:
       "01":
         title: "Rape Me"
@@ -689,7 +689,7 @@
 "Metal Worker":
     image: "metal_worker"
     spotify: "https://open.spotify.com/playlist/2ddTk8mWx4dbxwGZ3LzU2g"
-    amusic: "https://itunes.apple.com/playlist/pl.u-kx5lsWaJKA3"
+    amusic: "https://itunes.apple.com/de/playlist/pl.u-kx5lsWaJKA3"
     tracks:
       "01":
         title: "Black Knight Satellite"
@@ -769,7 +769,7 @@
 "Punch to wake up":
     image: "punch_to_wake_up"
     spotify: "https://open.spotify.com/playlist/082RbHp6tfy4WIB8dCvRbO"
-    amusic: "https://itunes.apple.com/playlist/pl.u-xrvdCpKJag7"
+    amusic: "https://itunes.apple.com/de/playlist/pl.u-xrvdCpKJag7"
     tracks:
       "01":
         title: "Come Together"
@@ -849,7 +849,7 @@
 "Iron Heart Still Beating":
     image: "iron_heart_still_beating"
     spotify: "https://open.spotify.com/playlist/1oRyLNLnRtsm0hAPtfWwIP"
-    amusic: "https://itunes.apple.com/playlist/pl.u-WBNZtvpeKLk"
+    amusic: "https://itunes.apple.com/de/playlist/pl.u-WBNZtvpeKLk"
     tracks:
       "01":
         title: "Game of Thrones Main Theme (Metalstep Version)"
@@ -930,7 +930,7 @@
     url_ref: "3metal5"
     image: "3metal5"
     spotify: "https://open.spotify.com/playlist/548TJNw19Pr6fRxUv7v0tP"
-    amusic: "https://itunes.apple.com/playlist/pl.u-kWgVFWaJKA3"
+    amusic: "https://itunes.apple.com/de/playlist/pl.u-kWgVFWaJKA3"
     tracks:
       "001":
         title: "Augen auf"
